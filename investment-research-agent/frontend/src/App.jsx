@@ -57,7 +57,8 @@ function App() {
       eventSourceRef.current.close();
     }
 
-    const url = `http://localhost:3001/api/research?company=${encodeURIComponent(company)}`;
+    const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+    const url = `${API_BASE_URL}/api/research?company=${encodeURIComponent(company)}`;
     const es = new EventSource(url);
     eventSourceRef.current = es;
 
