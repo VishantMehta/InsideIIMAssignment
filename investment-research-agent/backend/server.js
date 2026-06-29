@@ -6,7 +6,7 @@ import { compileGraph } from "./graph/index.js";
 dotenv.config();
 
 const app = express();
-app.use(cors({ origin: ["http://localhost:5173", "https://vishantinsideiim.vercel.app"] }));
+app.use(cors({ origin: ["http://localhost:5173", "https://inside-iim-vishant.vercel.app"] }));
 app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
@@ -31,7 +31,7 @@ app.get("/api/research", async (req, res) => {
   });
 
   const cacheKey = company.trim().toLowerCase();
-  
+
   try {
     const cachedState = getCache(cacheKey);
 
@@ -39,10 +39,10 @@ app.get("/api/research", async (req, res) => {
       console.log(`[CACHE HIT] Returning cached data for ${company}`);
       // Replay events artificially for the UI
       const nodesToReplay = [
-        "intake", "research", "fetchFinancials", "analyze", 
+        "intake", "research", "fetchFinancials", "analyze",
         "swotAnalysis", "riskAssessment", "decide", "respond"
       ];
-      
+
       for (const node of nodesToReplay) {
         // Send a minimal payload indicating this node finished, matching the real graph
         // To be accurate, we just send the whole cached state back for every node but keyed to the nodeName
@@ -50,17 +50,17 @@ app.get("/api/research", async (req, res) => {
         // It's safer to just send the whole cached state on the final node, and empty objects for intermediate nodes 
         // to progress the UI.
         const eventData = { node };
-        
+
         if (node === "respond") {
-           // Send all data on the last node
-           Object.assign(eventData, cachedState);
-           eventData.isCached = true;
+          // Send all data on the last node
+          Object.assign(eventData, cachedState);
+          eventData.isCached = true;
         }
-        
+
         res.write(`data: ${JSON.stringify(eventData)}\n\n`);
         await sleep(300); // 300ms artificial delay
       }
-      
+
       res.write(`data: ${JSON.stringify({ done: true })}\n\n`);
       return res.end();
     }
@@ -76,10 +76,10 @@ app.get("/api/research", async (req, res) => {
     for await (const chunk of stream) {
       const nodeName = Object.keys(chunk)[0];
       const stateUpdate = chunk[nodeName];
-      
+
       // Accumulate state for caching
       Object.assign(finalAccumulatedState, stateUpdate);
-      
+
       const eventData = {
         node: nodeName,
         ...stateUpdate,
