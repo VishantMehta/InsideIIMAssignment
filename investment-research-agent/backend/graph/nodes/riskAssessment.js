@@ -1,4 +1,4 @@
-import { getLLM } from "../../services/llm.js";
+import { getStructuredLLM } from "../../services/llm.js";
 import { z } from "zod";
 
 const riskSchema = z.object({
@@ -14,8 +14,7 @@ export async function riskAssessmentNode(state) {
   if (state.error) return {};
 
   try {
-    const llm = getLLM();
-    const structuredLlm = llm.withStructuredOutput(riskSchema, { name: "riskAssessment" });
+    const structuredLlm = getStructuredLLM(riskSchema, "riskAssessment");
     
     const prompt = `Conduct a comprehensive risk assessment for ${state.companyName}.
 Consider the qualitative research, financial metrics, and the previously identified SWOT analysis.

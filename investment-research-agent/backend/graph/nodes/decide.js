@@ -1,4 +1,4 @@
-import { getLLM } from "../../services/llm.js";
+import { getStructuredLLM } from "../../services/llm.js";
 import { z } from "zod";
 
 const decisionSchema = z.object({
@@ -12,8 +12,7 @@ export async function decideNode(state) {
   if (state.error) return {}; // Skip if previous error
 
   try {
-    const llm = getLLM();
-    const structuredLlm = llm.withStructuredOutput(decisionSchema, { name: "decision" });
+    const structuredLlm = getStructuredLLM(decisionSchema, "decision");
     
     const prompt = `You are the Lead Investment Strategist. Based on the comprehensive analysis below, make a final investment decision (INVEST or PASS) for ${state.companyName}.
 

@@ -1,7 +1,7 @@
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { ChatGroq } from "@langchain/groq";
 
-export function getLLM() {
+export function getStructuredLLM(schema, name) {
   const geminiApiKey = process.env.GEMINI_API_KEY;
   if (!geminiApiKey) {
     throw new Error("GEMINI_API_KEY is not set in environment variables");
@@ -12,6 +12,8 @@ export function getLLM() {
     apiKey: geminiApiKey,
     temperature: 0.2,
   });
+  
+  const primaryStructured = primaryModel.withStructuredOutput(schema, { name });
 
   const groqApiKey = process.env.GROQ_API_KEY;
   
@@ -22,10 +24,12 @@ export function getLLM() {
       temperature: 0.2,
     });
     
-    return primaryModel.withFallbacks({
-      fallbacks: [fallbackModel]
+    const fallbackStructured = fallbackModel.withStructuredOutput(schema, { name });
+    
+    return primaryStructured.withFallbacks({
+      fallbacks: [fallbackStructured]
     });
   }
 
-  return primaryModel;
+  return primaryStructured;
 }

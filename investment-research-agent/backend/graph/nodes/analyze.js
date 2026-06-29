@@ -1,4 +1,4 @@
-import { getLLM } from "../../services/llm.js";
+import { getStructuredLLM } from "../../services/llm.js";
 import { z } from "zod";
 
 const analysisSchema = z.object({
@@ -12,8 +12,7 @@ export async function analyzeNode(state) {
   if (state.error) return {}; // Skip if previous error
 
   try {
-    const llm = getLLM();
-    const structuredLlm = llm.withStructuredOutput(analysisSchema, { name: "analysis" });
+    const structuredLlm = getStructuredLLM(analysisSchema, "analysis");
     
     const prompt = `Based on the following research data and financial metrics for ${state.companyName}, extract the structured findings. Be sure to ground your analysis of strengths, risks, and financial health in the hard financial metrics provided.
     

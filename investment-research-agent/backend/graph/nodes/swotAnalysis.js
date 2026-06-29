@@ -1,4 +1,4 @@
-import { getLLM } from "../../services/llm.js";
+import { getStructuredLLM } from "../../services/llm.js";
 import { z } from "zod";
 
 const swotSchema = z.object({
@@ -12,8 +12,7 @@ export async function swotAnalysisNode(state) {
   if (state.error) return {};
 
   try {
-    const llm = getLLM();
-    const structuredLlm = llm.withStructuredOutput(swotSchema, { name: "swotAnalysis" });
+    const structuredLlm = getStructuredLLM(swotSchema, "swotAnalysis");
     
     const prompt = `Perform a comprehensive SWOT analysis for ${state.companyName} based on the provided qualitative research and quantitative financial data.
     
