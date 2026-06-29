@@ -1,0 +1,3461 @@
+{
+  "tesla": {
+    "value": {
+      "companyName": "Tesla",
+      "ticker": "TSLA",
+      "researchData": {
+        "query": "Tesla recent news, financials, competitors, and market position",
+        "follow_up_questions": null,
+        "answer": "Tesla's market share in the U.S. dropped to its lowest since 2017, facing stiff competition from rivals like Volkswagen and Toyota. Tesla's financials show significant year-over-year growth, but recent stock performance is down due to investor concerns. Competitors include Toyota, General Motors, and Volkswagen.",
+        "images": [],
+        "results": [
+          {
+            "url": "https://money.usnews.com/investing/stocks/tsla-tesla-inc",
+            "title": "Tesla Inc TSLA - Quotes, Financials, News, Charts and Research",
+            "content": "Tesla Inc Competitors - Motor Vehicles ; Toyota Motor Corporation - ADR TM · $166.50 · 1.1% · 1.62% ; General Motors Company GM · $78.53 · 61.09% · 6.22% ; Ferrari N.V.",
+            "score": 0.7144891,
+            "raw_content": null
+          },
+          {
+            "url": "https://csimarket.com/stocks/competitionSEG2.php?code=TSLA",
+            "title": "Tesla Inc Market share relative to its competitors, as of Q1 2026",
+            "content": "TSLA's Market share relative to its competitors, as of Q1 2026 ; Tesla Inc, 4.49%, 4.46% ; VOLKSWAGEN GROUP, 16.38%, 16.36% ; Toyota Motor Corp",
+            "score": 0.67347145,
+            "raw_content": null
+          },
+          {
+            "url": "https://finance.yahoo.com/quote/TSLA/news",
+            "title": "Tesla, Inc. (TSLA) Latest Stock News & Headlines - Yahoo Finance",
+            "content": "Despite recent gains, the stock is down significantly year-to-date, highlighting investor concerns over future growth. Tesla is facing a challenging market",
+            "score": 0.63152665,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.statista.com/topics/2086/tesla",
+            "title": "Tesla - statistics & facts | Statista",
+            "content": "Financial performance boosted by the U.S. market. Tesla recorded a net income in 2020 and had reported considerable year-over-year growth through 2023. Its",
+            "score": 0.5521781,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.reuters.com/business/autos-transportation/tesla-market-share-us-drops-lowest-since-2017-competition-heats-up-2025-09-08",
+            "title": "Tesla market share in US drops to lowest since 2017 as competition ...",
+            "content": "Tesla's U.S. market share dropped to a near eight-year low in August as buyers chose electric vehicles from a growing stable of rivals over",
+            "score": 0.55072874,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.34,
+        "request_id": "87d905a3-708a-4123-9b15-cf41218cc205"
+      },
+      "financials": {
+        "metrics": {
+          "marketCap": 1546757210112,
+          "peRatio": 164.60037,
+          "eps": 2.50206,
+          "grossMargin": 0.19065,
+          "operatingMargin": 0.04203,
+          "netMargin": 0.03946,
+          "roe": 0.04901,
+          "roa": 0.022330001,
+          "totalDebt": 15889999872,
+          "freeCashFlow": 5251999744,
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers",
+          "currentPrice": 411.84
+        },
+        "historicalPrices": [
+          {
+            "date": "2025-06-30T13:30:00.000Z",
+            "close": 317.6600036621094
+          },
+          {
+            "date": "2025-07-01T13:30:00.000Z",
+            "close": 300.7099914550781
+          },
+          {
+            "date": "2025-07-02T13:30:00.000Z",
+            "close": 315.6499938964844
+          },
+          {
+            "date": "2025-07-03T13:30:00.000Z",
+            "close": 315.3500061035156
+          },
+          {
+            "date": "2025-07-07T13:30:00.000Z",
+            "close": 293.94000244140625
+          },
+          {
+            "date": "2025-07-08T13:30:00.000Z",
+            "close": 297.80999755859375
+          },
+          {
+            "date": "2025-07-09T13:30:00.000Z",
+            "close": 295.8800048828125
+          },
+          {
+            "date": "2025-07-10T13:30:00.000Z",
+            "close": 309.8699951171875
+          },
+          {
+            "date": "2025-07-11T13:30:00.000Z",
+            "close": 313.510009765625
+          },
+          {
+            "date": "2025-07-14T13:30:00.000Z",
+            "close": 316.8999938964844
+          },
+          {
+            "date": "2025-07-15T13:30:00.000Z",
+            "close": 310.7799987792969
+          },
+          {
+            "date": "2025-07-16T13:30:00.000Z",
+            "close": 321.6700134277344
+          },
+          {
+            "date": "2025-07-17T13:30:00.000Z",
+            "close": 319.4100036621094
+          },
+          {
+            "date": "2025-07-18T13:30:00.000Z",
+            "close": 329.6499938964844
+          },
+          {
+            "date": "2025-07-21T13:30:00.000Z",
+            "close": 328.489990234375
+          },
+          {
+            "date": "2025-07-22T13:30:00.000Z",
+            "close": 332.1099853515625
+          },
+          {
+            "date": "2025-07-23T13:30:00.000Z",
+            "close": 332.55999755859375
+          },
+          {
+            "date": "2025-07-24T13:30:00.000Z",
+            "close": 305.29998779296875
+          },
+          {
+            "date": "2025-07-25T13:30:00.000Z",
+            "close": 316.05999755859375
+          },
+          {
+            "date": "2025-07-28T13:30:00.000Z",
+            "close": 325.5899963378906
+          },
+          {
+            "date": "2025-07-29T13:30:00.000Z",
+            "close": 321.20001220703125
+          },
+          {
+            "date": "2025-07-30T13:30:00.000Z",
+            "close": 319.0400085449219
+          },
+          {
+            "date": "2025-07-31T13:30:00.000Z",
+            "close": 308.2699890136719
+          },
+          {
+            "date": "2025-08-01T13:30:00.000Z",
+            "close": 302.6300048828125
+          },
+          {
+            "date": "2025-08-04T13:30:00.000Z",
+            "close": 309.260009765625
+          },
+          {
+            "date": "2025-08-05T13:30:00.000Z",
+            "close": 308.7200012207031
+          },
+          {
+            "date": "2025-08-06T13:30:00.000Z",
+            "close": 319.9100036621094
+          },
+          {
+            "date": "2025-08-07T13:30:00.000Z",
+            "close": 322.2699890136719
+          },
+          {
+            "date": "2025-08-08T13:30:00.000Z",
+            "close": 329.6499938964844
+          },
+          {
+            "date": "2025-08-11T13:30:00.000Z",
+            "close": 339.0299987792969
+          },
+          {
+            "date": "2025-08-12T13:30:00.000Z",
+            "close": 340.8399963378906
+          },
+          {
+            "date": "2025-08-13T13:30:00.000Z",
+            "close": 339.3800048828125
+          },
+          {
+            "date": "2025-08-14T13:30:00.000Z",
+            "close": 335.5799865722656
+          },
+          {
+            "date": "2025-08-15T13:30:00.000Z",
+            "close": 330.55999755859375
+          },
+          {
+            "date": "2025-08-18T13:30:00.000Z",
+            "close": 335.1600036621094
+          },
+          {
+            "date": "2025-08-19T13:30:00.000Z",
+            "close": 329.30999755859375
+          },
+          {
+            "date": "2025-08-20T13:30:00.000Z",
+            "close": 323.8999938964844
+          },
+          {
+            "date": "2025-08-21T13:30:00.000Z",
+            "close": 320.1099853515625
+          },
+          {
+            "date": "2025-08-22T13:30:00.000Z",
+            "close": 340.010009765625
+          },
+          {
+            "date": "2025-08-25T13:30:00.000Z",
+            "close": 346.6000061035156
+          },
+          {
+            "date": "2025-08-26T13:30:00.000Z",
+            "close": 351.6700134277344
+          },
+          {
+            "date": "2025-08-27T13:30:00.000Z",
+            "close": 349.6000061035156
+          },
+          {
+            "date": "2025-08-28T13:30:00.000Z",
+            "close": 345.9800109863281
+          },
+          {
+            "date": "2025-08-29T13:30:00.000Z",
+            "close": 333.8699951171875
+          },
+          {
+            "date": "2025-09-02T13:30:00.000Z",
+            "close": 329.3599853515625
+          },
+          {
+            "date": "2025-09-03T13:30:00.000Z",
+            "close": 334.0899963378906
+          },
+          {
+            "date": "2025-09-04T13:30:00.000Z",
+            "close": 338.5299987792969
+          },
+          {
+            "date": "2025-09-05T13:30:00.000Z",
+            "close": 350.8399963378906
+          },
+          {
+            "date": "2025-09-08T13:30:00.000Z",
+            "close": 346.3999938964844
+          },
+          {
+            "date": "2025-09-09T13:30:00.000Z",
+            "close": 346.9700012207031
+          },
+          {
+            "date": "2025-09-10T13:30:00.000Z",
+            "close": 347.7900085449219
+          },
+          {
+            "date": "2025-09-11T13:30:00.000Z",
+            "close": 368.80999755859375
+          },
+          {
+            "date": "2025-09-12T13:30:00.000Z",
+            "close": 395.94000244140625
+          },
+          {
+            "date": "2025-09-15T13:30:00.000Z",
+            "close": 410.0400085449219
+          },
+          {
+            "date": "2025-09-16T13:30:00.000Z",
+            "close": 421.6199951171875
+          },
+          {
+            "date": "2025-09-17T13:30:00.000Z",
+            "close": 425.8599853515625
+          },
+          {
+            "date": "2025-09-18T13:30:00.000Z",
+            "close": 416.8500061035156
+          },
+          {
+            "date": "2025-09-19T13:30:00.000Z",
+            "close": 426.07000732421875
+          },
+          {
+            "date": "2025-09-22T13:30:00.000Z",
+            "close": 434.2099914550781
+          },
+          {
+            "date": "2025-09-23T13:30:00.000Z",
+            "close": 425.8500061035156
+          },
+          {
+            "date": "2025-09-24T13:30:00.000Z",
+            "close": 442.7900085449219
+          },
+          {
+            "date": "2025-09-25T13:30:00.000Z",
+            "close": 423.3900146484375
+          },
+          {
+            "date": "2025-09-26T13:30:00.000Z",
+            "close": 440.3999938964844
+          },
+          {
+            "date": "2025-09-29T13:30:00.000Z",
+            "close": 443.2099914550781
+          },
+          {
+            "date": "2025-09-30T13:30:00.000Z",
+            "close": 444.7200012207031
+          },
+          {
+            "date": "2025-10-01T13:30:00.000Z",
+            "close": 459.4599914550781
+          },
+          {
+            "date": "2025-10-02T13:30:00.000Z",
+            "close": 436
+          },
+          {
+            "date": "2025-10-03T13:30:00.000Z",
+            "close": 429.8299865722656
+          },
+          {
+            "date": "2025-10-06T13:30:00.000Z",
+            "close": 453.25
+          },
+          {
+            "date": "2025-10-07T13:30:00.000Z",
+            "close": 433.0899963378906
+          },
+          {
+            "date": "2025-10-08T13:30:00.000Z",
+            "close": 438.69000244140625
+          },
+          {
+            "date": "2025-10-09T13:30:00.000Z",
+            "close": 435.5400085449219
+          },
+          {
+            "date": "2025-10-10T13:30:00.000Z",
+            "close": 413.489990234375
+          },
+          {
+            "date": "2025-10-13T13:30:00.000Z",
+            "close": 435.8999938964844
+          },
+          {
+            "date": "2025-10-14T13:30:00.000Z",
+            "close": 429.239990234375
+          },
+          {
+            "date": "2025-10-15T13:30:00.000Z",
+            "close": 435.1499938964844
+          },
+          {
+            "date": "2025-10-16T13:30:00.000Z",
+            "close": 428.75
+          },
+          {
+            "date": "2025-10-17T13:30:00.000Z",
+            "close": 439.30999755859375
+          },
+          {
+            "date": "2025-10-20T13:30:00.000Z",
+            "close": 447.42999267578125
+          },
+          {
+            "date": "2025-10-21T13:30:00.000Z",
+            "close": 442.6000061035156
+          },
+          {
+            "date": "2025-10-22T13:30:00.000Z",
+            "close": 438.9700012207031
+          },
+          {
+            "date": "2025-10-23T13:30:00.000Z",
+            "close": 448.9800109863281
+          },
+          {
+            "date": "2025-10-24T13:30:00.000Z",
+            "close": 433.7200012207031
+          },
+          {
+            "date": "2025-10-27T13:30:00.000Z",
+            "close": 452.4200134277344
+          },
+          {
+            "date": "2025-10-28T13:30:00.000Z",
+            "close": 460.54998779296875
+          },
+          {
+            "date": "2025-10-29T13:30:00.000Z",
+            "close": 461.510009765625
+          },
+          {
+            "date": "2025-10-30T13:30:00.000Z",
+            "close": 440.1000061035156
+          },
+          {
+            "date": "2025-10-31T13:30:00.000Z",
+            "close": 456.55999755859375
+          },
+          {
+            "date": "2025-11-03T14:30:00.000Z",
+            "close": 468.3699951171875
+          },
+          {
+            "date": "2025-11-04T14:30:00.000Z",
+            "close": 444.260009765625
+          },
+          {
+            "date": "2025-11-05T14:30:00.000Z",
+            "close": 462.07000732421875
+          },
+          {
+            "date": "2025-11-06T14:30:00.000Z",
+            "close": 445.9100036621094
+          },
+          {
+            "date": "2025-11-07T14:30:00.000Z",
+            "close": 429.5199890136719
+          },
+          {
+            "date": "2025-11-10T14:30:00.000Z",
+            "close": 445.2300109863281
+          },
+          {
+            "date": "2025-11-11T14:30:00.000Z",
+            "close": 439.6199951171875
+          },
+          {
+            "date": "2025-11-12T14:30:00.000Z",
+            "close": 430.6000061035156
+          },
+          {
+            "date": "2025-11-13T14:30:00.000Z",
+            "close": 401.989990234375
+          },
+          {
+            "date": "2025-11-14T14:30:00.000Z",
+            "close": 404.3500061035156
+          },
+          {
+            "date": "2025-11-17T14:30:00.000Z",
+            "close": 408.9200134277344
+          },
+          {
+            "date": "2025-11-18T14:30:00.000Z",
+            "close": 401.25
+          },
+          {
+            "date": "2025-11-19T14:30:00.000Z",
+            "close": 403.989990234375
+          },
+          {
+            "date": "2025-11-20T14:30:00.000Z",
+            "close": 395.2300109863281
+          },
+          {
+            "date": "2025-11-21T14:30:00.000Z",
+            "close": 391.0899963378906
+          },
+          {
+            "date": "2025-11-24T14:30:00.000Z",
+            "close": 417.7799987792969
+          },
+          {
+            "date": "2025-11-25T14:30:00.000Z",
+            "close": 419.3999938964844
+          },
+          {
+            "date": "2025-11-26T14:30:00.000Z",
+            "close": 426.5799865722656
+          },
+          {
+            "date": "2025-11-28T14:30:00.000Z",
+            "close": 430.1700134277344
+          },
+          {
+            "date": "2025-12-01T14:30:00.000Z",
+            "close": 430.1400146484375
+          },
+          {
+            "date": "2025-12-02T14:30:00.000Z",
+            "close": 429.239990234375
+          },
+          {
+            "date": "2025-12-03T14:30:00.000Z",
+            "close": 446.739990234375
+          },
+          {
+            "date": "2025-12-04T14:30:00.000Z",
+            "close": 454.5299987792969
+          },
+          {
+            "date": "2025-12-05T14:30:00.000Z",
+            "close": 455
+          },
+          {
+            "date": "2025-12-08T14:30:00.000Z",
+            "close": 439.5799865722656
+          },
+          {
+            "date": "2025-12-09T14:30:00.000Z",
+            "close": 445.1700134277344
+          },
+          {
+            "date": "2025-12-10T14:30:00.000Z",
+            "close": 451.45001220703125
+          },
+          {
+            "date": "2025-12-11T14:30:00.000Z",
+            "close": 446.8900146484375
+          },
+          {
+            "date": "2025-12-12T14:30:00.000Z",
+            "close": 458.9599914550781
+          },
+          {
+            "date": "2025-12-15T14:30:00.000Z",
+            "close": 475.30999755859375
+          },
+          {
+            "date": "2025-12-16T14:30:00.000Z",
+            "close": 489.8800048828125
+          },
+          {
+            "date": "2025-12-17T14:30:00.000Z",
+            "close": 467.260009765625
+          },
+          {
+            "date": "2025-12-18T14:30:00.000Z",
+            "close": 483.3699951171875
+          },
+          {
+            "date": "2025-12-19T14:30:00.000Z",
+            "close": 481.20001220703125
+          },
+          {
+            "date": "2025-12-22T14:30:00.000Z",
+            "close": 488.7300109863281
+          },
+          {
+            "date": "2025-12-23T14:30:00.000Z",
+            "close": 485.55999755859375
+          },
+          {
+            "date": "2025-12-24T14:30:00.000Z",
+            "close": 485.3999938964844
+          },
+          {
+            "date": "2025-12-26T14:30:00.000Z",
+            "close": 475.19000244140625
+          },
+          {
+            "date": "2025-12-29T14:30:00.000Z",
+            "close": 459.6400146484375
+          },
+          {
+            "date": "2025-12-30T14:30:00.000Z",
+            "close": 454.42999267578125
+          },
+          {
+            "date": "2025-12-31T14:30:00.000Z",
+            "close": 449.7200012207031
+          },
+          {
+            "date": "2026-01-02T14:30:00.000Z",
+            "close": 438.07000732421875
+          },
+          {
+            "date": "2026-01-05T14:30:00.000Z",
+            "close": 451.6700134277344
+          },
+          {
+            "date": "2026-01-06T14:30:00.000Z",
+            "close": 432.9599914550781
+          },
+          {
+            "date": "2026-01-07T14:30:00.000Z",
+            "close": 431.4100036621094
+          },
+          {
+            "date": "2026-01-08T14:30:00.000Z",
+            "close": 435.79998779296875
+          },
+          {
+            "date": "2026-01-09T14:30:00.000Z",
+            "close": 445.010009765625
+          },
+          {
+            "date": "2026-01-12T14:30:00.000Z",
+            "close": 448.9599914550781
+          },
+          {
+            "date": "2026-01-13T14:30:00.000Z",
+            "close": 447.20001220703125
+          },
+          {
+            "date": "2026-01-14T14:30:00.000Z",
+            "close": 439.20001220703125
+          },
+          {
+            "date": "2026-01-15T14:30:00.000Z",
+            "close": 438.57000732421875
+          },
+          {
+            "date": "2026-01-16T14:30:00.000Z",
+            "close": 437.5
+          },
+          {
+            "date": "2026-01-20T14:30:00.000Z",
+            "close": 419.25
+          },
+          {
+            "date": "2026-01-21T14:30:00.000Z",
+            "close": 431.44000244140625
+          },
+          {
+            "date": "2026-01-22T14:30:00.000Z",
+            "close": 449.3599853515625
+          },
+          {
+            "date": "2026-01-23T14:30:00.000Z",
+            "close": 449.05999755859375
+          },
+          {
+            "date": "2026-01-26T14:30:00.000Z",
+            "close": 435.20001220703125
+          },
+          {
+            "date": "2026-01-27T14:30:00.000Z",
+            "close": 430.8999938964844
+          },
+          {
+            "date": "2026-01-28T14:30:00.000Z",
+            "close": 431.4599914550781
+          },
+          {
+            "date": "2026-01-29T14:30:00.000Z",
+            "close": 416.55999755859375
+          },
+          {
+            "date": "2026-01-30T14:30:00.000Z",
+            "close": 430.4100036621094
+          },
+          {
+            "date": "2026-02-02T14:30:00.000Z",
+            "close": 421.80999755859375
+          },
+          {
+            "date": "2026-02-03T14:30:00.000Z",
+            "close": 421.9599914550781
+          },
+          {
+            "date": "2026-02-04T14:30:00.000Z",
+            "close": 406.010009765625
+          },
+          {
+            "date": "2026-02-05T14:30:00.000Z",
+            "close": 397.2099914550781
+          },
+          {
+            "date": "2026-02-06T14:30:00.000Z",
+            "close": 411.1099853515625
+          },
+          {
+            "date": "2026-02-09T14:30:00.000Z",
+            "close": 417.32000732421875
+          },
+          {
+            "date": "2026-02-10T14:30:00.000Z",
+            "close": 425.2099914550781
+          },
+          {
+            "date": "2026-02-11T14:30:00.000Z",
+            "close": 428.2699890136719
+          },
+          {
+            "date": "2026-02-12T14:30:00.000Z",
+            "close": 417.07000732421875
+          },
+          {
+            "date": "2026-02-13T14:30:00.000Z",
+            "close": 417.44000244140625
+          },
+          {
+            "date": "2026-02-17T14:30:00.000Z",
+            "close": 410.6300048828125
+          },
+          {
+            "date": "2026-02-18T14:30:00.000Z",
+            "close": 411.32000732421875
+          },
+          {
+            "date": "2026-02-19T14:30:00.000Z",
+            "close": 411.7099914550781
+          },
+          {
+            "date": "2026-02-20T14:30:00.000Z",
+            "close": 411.82000732421875
+          },
+          {
+            "date": "2026-02-23T14:30:00.000Z",
+            "close": 399.8299865722656
+          },
+          {
+            "date": "2026-02-24T14:30:00.000Z",
+            "close": 409.3800048828125
+          },
+          {
+            "date": "2026-02-25T14:30:00.000Z",
+            "close": 417.3999938964844
+          },
+          {
+            "date": "2026-02-26T14:30:00.000Z",
+            "close": 408.5799865722656
+          },
+          {
+            "date": "2026-02-27T14:30:00.000Z",
+            "close": 402.510009765625
+          },
+          {
+            "date": "2026-03-02T14:30:00.000Z",
+            "close": 403.32000732421875
+          },
+          {
+            "date": "2026-03-03T14:30:00.000Z",
+            "close": 392.42999267578125
+          },
+          {
+            "date": "2026-03-04T14:30:00.000Z",
+            "close": 405.94000244140625
+          },
+          {
+            "date": "2026-03-05T14:30:00.000Z",
+            "close": 405.54998779296875
+          },
+          {
+            "date": "2026-03-06T14:30:00.000Z",
+            "close": 396.7300109863281
+          },
+          {
+            "date": "2026-03-09T13:30:00.000Z",
+            "close": 398.67999267578125
+          },
+          {
+            "date": "2026-03-10T13:30:00.000Z",
+            "close": 399.239990234375
+          },
+          {
+            "date": "2026-03-11T13:30:00.000Z",
+            "close": 407.82000732421875
+          },
+          {
+            "date": "2026-03-12T13:30:00.000Z",
+            "close": 395.010009765625
+          },
+          {
+            "date": "2026-03-13T13:30:00.000Z",
+            "close": 391.20001220703125
+          },
+          {
+            "date": "2026-03-16T13:30:00.000Z",
+            "close": 395.55999755859375
+          },
+          {
+            "date": "2026-03-17T13:30:00.000Z",
+            "close": 399.2699890136719
+          },
+          {
+            "date": "2026-03-18T13:30:00.000Z",
+            "close": 392.7799987792969
+          },
+          {
+            "date": "2026-03-19T13:30:00.000Z",
+            "close": 380.29998779296875
+          },
+          {
+            "date": "2026-03-20T13:30:00.000Z",
+            "close": 367.9599914550781
+          },
+          {
+            "date": "2026-03-23T13:30:00.000Z",
+            "close": 380.8500061035156
+          },
+          {
+            "date": "2026-03-24T13:30:00.000Z",
+            "close": 383.0299987792969
+          },
+          {
+            "date": "2026-03-25T13:30:00.000Z",
+            "close": 385.95001220703125
+          },
+          {
+            "date": "2026-03-26T13:30:00.000Z",
+            "close": 372.1099853515625
+          },
+          {
+            "date": "2026-03-27T13:30:00.000Z",
+            "close": 361.8299865722656
+          },
+          {
+            "date": "2026-03-30T13:30:00.000Z",
+            "close": 355.2799987792969
+          },
+          {
+            "date": "2026-03-31T13:30:00.000Z",
+            "close": 371.75
+          },
+          {
+            "date": "2026-04-01T13:30:00.000Z",
+            "close": 381.260009765625
+          },
+          {
+            "date": "2026-04-02T13:30:00.000Z",
+            "close": 360.5899963378906
+          },
+          {
+            "date": "2026-04-06T13:30:00.000Z",
+            "close": 352.82000732421875
+          },
+          {
+            "date": "2026-04-07T13:30:00.000Z",
+            "close": 346.6499938964844
+          },
+          {
+            "date": "2026-04-08T13:30:00.000Z",
+            "close": 343.25
+          },
+          {
+            "date": "2026-04-09T13:30:00.000Z",
+            "close": 345.6199951171875
+          },
+          {
+            "date": "2026-04-10T13:30:00.000Z",
+            "close": 348.95001220703125
+          },
+          {
+            "date": "2026-04-13T13:30:00.000Z",
+            "close": 352.4200134277344
+          },
+          {
+            "date": "2026-04-14T13:30:00.000Z",
+            "close": 364.20001220703125
+          },
+          {
+            "date": "2026-04-15T13:30:00.000Z",
+            "close": 391.95001220703125
+          },
+          {
+            "date": "2026-04-16T13:30:00.000Z",
+            "close": 388.8999938964844
+          },
+          {
+            "date": "2026-04-17T13:30:00.000Z",
+            "close": 400.6199951171875
+          },
+          {
+            "date": "2026-04-20T13:30:00.000Z",
+            "close": 392.5
+          },
+          {
+            "date": "2026-04-21T13:30:00.000Z",
+            "close": 386.4200134277344
+          },
+          {
+            "date": "2026-04-22T13:30:00.000Z",
+            "close": 387.510009765625
+          },
+          {
+            "date": "2026-04-23T13:30:00.000Z",
+            "close": 373.7200012207031
+          },
+          {
+            "date": "2026-04-24T13:30:00.000Z",
+            "close": 376.29998779296875
+          },
+          {
+            "date": "2026-04-27T13:30:00.000Z",
+            "close": 378.6700134277344
+          },
+          {
+            "date": "2026-04-28T13:30:00.000Z",
+            "close": 376.0199890136719
+          },
+          {
+            "date": "2026-04-29T13:30:00.000Z",
+            "close": 372.79998779296875
+          },
+          {
+            "date": "2026-04-30T13:30:00.000Z",
+            "close": 381.6300048828125
+          },
+          {
+            "date": "2026-05-01T13:30:00.000Z",
+            "close": 390.82000732421875
+          },
+          {
+            "date": "2026-05-04T13:30:00.000Z",
+            "close": 392.510009765625
+          },
+          {
+            "date": "2026-05-05T13:30:00.000Z",
+            "close": 389.3699951171875
+          },
+          {
+            "date": "2026-05-06T13:30:00.000Z",
+            "close": 398.7300109863281
+          },
+          {
+            "date": "2026-05-07T13:30:00.000Z",
+            "close": 411.7900085449219
+          },
+          {
+            "date": "2026-05-08T13:30:00.000Z",
+            "close": 428.3500061035156
+          },
+          {
+            "date": "2026-05-11T13:30:00.000Z",
+            "close": 445
+          },
+          {
+            "date": "2026-05-12T13:30:00.000Z",
+            "close": 433.45001220703125
+          },
+          {
+            "date": "2026-05-13T13:30:00.000Z",
+            "close": 445.2699890136719
+          },
+          {
+            "date": "2026-05-14T13:30:00.000Z",
+            "close": 443.29998779296875
+          },
+          {
+            "date": "2026-05-15T13:30:00.000Z",
+            "close": 422.239990234375
+          },
+          {
+            "date": "2026-05-18T13:30:00.000Z",
+            "close": 409.989990234375
+          },
+          {
+            "date": "2026-05-19T13:30:00.000Z",
+            "close": 404.1099853515625
+          },
+          {
+            "date": "2026-05-20T13:30:00.000Z",
+            "close": 417.260009765625
+          },
+          {
+            "date": "2026-05-21T13:30:00.000Z",
+            "close": 417.8500061035156
+          },
+          {
+            "date": "2026-05-22T13:30:00.000Z",
+            "close": 426.010009765625
+          },
+          {
+            "date": "2026-05-26T13:30:00.000Z",
+            "close": 433.5899963378906
+          },
+          {
+            "date": "2026-05-27T13:30:00.000Z",
+            "close": 440.3599853515625
+          },
+          {
+            "date": "2026-05-28T13:30:00.000Z",
+            "close": 442.1000061035156
+          },
+          {
+            "date": "2026-05-29T13:30:00.000Z",
+            "close": 435.7900085449219
+          },
+          {
+            "date": "2026-06-01T13:30:00.000Z",
+            "close": 415.8800048828125
+          },
+          {
+            "date": "2026-06-02T13:30:00.000Z",
+            "close": 423.739990234375
+          },
+          {
+            "date": "2026-06-03T13:30:00.000Z",
+            "close": 423.70001220703125
+          },
+          {
+            "date": "2026-06-04T13:30:00.000Z",
+            "close": 418.45001220703125
+          },
+          {
+            "date": "2026-06-05T13:30:00.000Z",
+            "close": 391
+          },
+          {
+            "date": "2026-06-08T13:30:00.000Z",
+            "close": 408.95001220703125
+          },
+          {
+            "date": "2026-06-09T13:30:00.000Z",
+            "close": 396.67999267578125
+          },
+          {
+            "date": "2026-06-10T13:30:00.000Z",
+            "close": 381.5899963378906
+          },
+          {
+            "date": "2026-06-11T13:30:00.000Z",
+            "close": 399.1499938964844
+          },
+          {
+            "date": "2026-06-12T13:30:00.000Z",
+            "close": 406.42999267578125
+          },
+          {
+            "date": "2026-06-15T13:30:00.000Z",
+            "close": 411.1499938964844
+          },
+          {
+            "date": "2026-06-16T13:30:00.000Z",
+            "close": 404.6600036621094
+          },
+          {
+            "date": "2026-06-17T13:30:00.000Z",
+            "close": 396.3800048828125
+          },
+          {
+            "date": "2026-06-18T13:30:00.000Z",
+            "close": 400.489990234375
+          },
+          {
+            "date": "2026-06-22T13:30:00.000Z",
+            "close": 405.04998779296875
+          },
+          {
+            "date": "2026-06-23T13:30:00.000Z",
+            "close": 381.6099853515625
+          },
+          {
+            "date": "2026-06-24T13:30:00.000Z",
+            "close": 375.5299987792969
+          },
+          {
+            "date": "2026-06-25T13:30:00.000Z",
+            "close": 375.1199951171875
+          },
+          {
+            "date": "2026-06-26T13:30:00.000Z",
+            "close": 379.7099914550781
+          },
+          {
+            "date": "2026-06-29T13:30:00.000Z",
+            "close": 411.8399963378906
+          }
+        ]
+      },
+      "analysisData": {
+        "strengths": [
+          "Significant year-over-year financial growth through 2023",
+          "Large market capitalization of over $1.5 trillion",
+          "Generates positive free cash flow ($5.25 billion)"
+        ],
+        "risks": [
+          "Declining U.S. market share, reaching its lowest since 2017",
+          "Stiff competition from rivals like Volkswagen, Toyota, and General Motors",
+          "Very high P/E ratio (164.60) suggesting potential overvaluation or high growth expectations",
+          "Relatively low operating margin (4.20%) and net margin (3.95%)",
+          "Low Return on Equity (4.90%) and Return on Assets (2.23%) indicating efficiency challenges"
+        ],
+        "financialHealth": "Tesla demonstrates significant year-over-year growth and maintains a substantial market capitalization of over $1.5 trillion. It generates positive free cash flow of $5.25 billion and has a positive net income. However, its operating margin (4.20%) and net margin (3.95%) are relatively low, and its P/E ratio (164.60) is very high, indicating high investor expectations. Return on Equity (4.90%) and Return on Assets (2.23%) are also low, suggesting potential inefficiencies in capital utilization. The company carries $15.89 billion in total debt.",
+        "marketSentiment": "Market sentiment towards Tesla is cautious, with the stock down significantly year-to-date despite recent gains. Investor concerns are evident regarding future growth prospects, particularly due to increasing competition and declining market share in key markets."
+      },
+      "swotData": {
+        "strengths": [
+          "Significant year-over-year financial growth through 2023",
+          "Positive free cash flow of $5.25 billion",
+          "High market capitalization of over $1.5 trillion"
+        ],
+        "weaknesses": [
+          "U.S. market share dropped to its lowest since 2017 (4.49% in Q1 2026)",
+          "Recent stock performance is down significantly year-to-date",
+          "Investor concerns over future growth",
+          "Very high PE ratio (164.60) indicating high market expectations"
+        ],
+        "opportunities": [
+          "Continued financial performance boost from the U.S. market",
+          "Overall growth in the electric vehicle market, attracting a growing stable of rivals"
+        ],
+        "threats": [
+          "Stiff and increasing competition from major rivals like Volkswagen, Toyota, and General Motors",
+          "Volkswagen Group holds a significantly larger market share (16.38% in Q1 2026) compared to Tesla",
+          "Challenging market conditions"
+        ]
+      },
+      "riskData": {
+        "overallRiskScore": 7,
+        "riskFactors": [
+          {
+            "factor": "Intense Competition and Market Share Erosion",
+            "severity": "high",
+            "explanation": "Tesla's U.S. market share has dropped to its lowest since 2017 (4.49% in Q1 2026), facing stiff competition from major rivals like Volkswagen (16.38% market share), Toyota, and General Motors. This increased competition could lead to pricing pressure, reduced sales volume, and hinder future growth."
+          },
+          {
+            "factor": "High Valuation and Investor Concerns",
+            "severity": "high",
+            "explanation": "Tesla's very high P/E ratio of 164.60 indicates significant market expectations for future growth. Recent stock performance is down significantly year-to-date, and investor concerns over future growth highlight the risk of a substantial market correction if these high expectations are not met."
+          },
+          {
+            "factor": "Relatively Thin Profit Margins",
+            "severity": "medium",
+            "explanation": "Despite significant year-over-year growth, Tesla's operating margin (4.20%) and net margin (3.95%) are relatively low. This leaves limited room to absorb cost increases or engage in aggressive pricing strategies, making the company vulnerable to competitive pressures and economic fluctuations."
+          },
+          {
+            "factor": "Challenging Market Conditions",
+            "severity": "medium",
+            "explanation": "Tesla is operating in a challenging market environment, which can encompass various external factors such as economic slowdowns, supply chain disruptions, or shifts in consumer preferences. These conditions could impede the company's ability to maintain its growth trajectory and market position."
+          }
+        ]
+      },
+      "finalDecision": {
+        "decision": "PASS",
+        "confidence": 90,
+        "reasoning": "The overallRiskScore for Tesla is 7, which signifies a high-risk investment profile. This score is justified by several critical factors including intense competition leading to significant market share erosion, a very high valuation that implies unsustainable growth expectations, and relatively thin profit margins. While Tesla exhibits strengths such as significant year-over-year financial growth and positive free cash flow, these are overshadowed by the substantial weaknesses and threats. Specifically, the declining U.S. market share, which has reached its lowest since 2017, coupled with stiff competition from established rivals like Volkswagen, presents a significant headwind. From a financial perspective, the P/E ratio of 164.60 is exceptionally high, suggesting the stock is significantly overvalued relative to its current earnings and implying that future growth is already priced in. Furthermore, the company's operating margin of 4.20% and net margin of 3.95% are relatively low, indicating limited profitability per unit of revenue and vulnerability to pricing pressures. Given these factors, the risk-reward profile is unfavorable for a new investment at this juncture.",
+        "keyFactors": [
+          "Very high P/E ratio (164.60) indicating overvaluation",
+          "Declining U.S. market share and intense competition",
+          "Relatively low operating (4.20%) and net (3.95%) profit margins",
+          "High overall risk score of 7"
+        ]
+      }
+    },
+    "timestamp": 1782770476928
+  },
+  "apple": {
+    "value": {
+      "companyName": "Apple",
+      "ticker": "AAPL",
+      "researchData": {
+        "query": "Apple recent news, financials, competitors, and market position",
+        "follow_up_questions": null,
+        "answer": "Apple's market share has slipped to 18% in 2024, but it remains dominant in iPad and Apple Watch segments. Recent financials show strong earnings and revenue growth. Competitors include Amazon, Alphabet, and others.",
+        "images": [],
+        "results": [
+          {
+            "url": "https://csimarket.com/stocks/competitionSEG2.php?code=AAPL",
+            "title": "Apple Inc Market share relative to its competitors, as of Q1 2026",
+            "content": "AAPL's Market share relative to its competitors, as of Q1 2026 ; Apple Inc, 451,442.00, 14.79% ; Amazon com Inc, 742,776.00, 24.34% ; Alphabet Inc",
+            "score": 0.6052631,
+            "raw_content": null
+          },
+          {
+            "url": "https://finance.yahoo.com/news/apples-iphone-market-share-slips-073130519.html",
+            "title": "Apple's iPhone Market Share Slips to 18% Amid Rising Competition",
+            "content": "On Jan 13, Apple Inc. (AAPL, Financial) saw its iPhone market share fall to 18% in 2024, according to Counterpoint Research.",
+            "score": 0.5942929,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.perplexity.ai/finance/aapl",
+            "title": "Apple Inc. Stock Price: Quote, Forecast, Splits & News (AAPL)",
+            "content": "Strong recent fundamentals, including a Q1 earnings beat ($2.01 EPS vs. $1.95 estimate) and 16.6% revenue growth, underpin the rally, though some caution",
+            "score": 0.54346967,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.marketbeat.com/stocks/NASDAQ/AAPL/competitors-and-alternatives",
+            "title": "Top Apple (AAPL) Competitors 2026 - MarketBeat",
+            "content": "AAPL vs. The Competition ; Net Income, $112.01B · $30.60B · $1.07B · $337.00M ; 7 Day Performance, -4.28%, -2.76%, -0.42%, -0.20%.",
+            "score": 0.5246632,
+            "raw_content": null
+          },
+          {
+            "url": "https://macdailynews.com/2026/06/12/apples-dominance-deepens-with-global-market-share-gains-across-key-product-segments",
+            "title": "Apple's dominance deepens with global market share gains across ...",
+            "content": "Apple posted gains in most major categories by shipment volume: • iPad: Rose from 34% to 37% global share, Apple Watch: Climbed from 20% to 23%",
+            "score": 0.49816954,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.54,
+        "request_id": "9124fa5c-e43e-46a8-b366-3370c0e1d1cf"
+      },
+      "financials": {
+        "metrics": {
+          "marketCap": 4138015391744,
+          "peRatio": 29.320671,
+          "eps": 9.60892,
+          "grossMargin": 0.47862,
+          "operatingMargin": 0.32275,
+          "netMargin": 0.27152002,
+          "roe": 1.4147099,
+          "roa": 0.26229,
+          "totalDebt": 84710998016,
+          "freeCashFlow": 101090746368,
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "currentPrice": 281.74
+        },
+        "historicalPrices": [
+          {
+            "date": "2025-06-30T13:30:00.000Z",
+            "close": 205.1699981689453
+          },
+          {
+            "date": "2025-07-01T13:30:00.000Z",
+            "close": 207.82000732421875
+          },
+          {
+            "date": "2025-07-02T13:30:00.000Z",
+            "close": 212.44000244140625
+          },
+          {
+            "date": "2025-07-03T13:30:00.000Z",
+            "close": 213.5500030517578
+          },
+          {
+            "date": "2025-07-07T13:30:00.000Z",
+            "close": 209.9499969482422
+          },
+          {
+            "date": "2025-07-08T13:30:00.000Z",
+            "close": 210.00999450683594
+          },
+          {
+            "date": "2025-07-09T13:30:00.000Z",
+            "close": 211.13999938964844
+          },
+          {
+            "date": "2025-07-10T13:30:00.000Z",
+            "close": 212.41000366210938
+          },
+          {
+            "date": "2025-07-11T13:30:00.000Z",
+            "close": 211.16000366210938
+          },
+          {
+            "date": "2025-07-14T13:30:00.000Z",
+            "close": 208.6199951171875
+          },
+          {
+            "date": "2025-07-15T13:30:00.000Z",
+            "close": 209.11000061035156
+          },
+          {
+            "date": "2025-07-16T13:30:00.000Z",
+            "close": 210.16000366210938
+          },
+          {
+            "date": "2025-07-17T13:30:00.000Z",
+            "close": 210.02000427246094
+          },
+          {
+            "date": "2025-07-18T13:30:00.000Z",
+            "close": 211.17999267578125
+          },
+          {
+            "date": "2025-07-21T13:30:00.000Z",
+            "close": 212.47999572753906
+          },
+          {
+            "date": "2025-07-22T13:30:00.000Z",
+            "close": 214.39999389648438
+          },
+          {
+            "date": "2025-07-23T13:30:00.000Z",
+            "close": 214.14999389648438
+          },
+          {
+            "date": "2025-07-24T13:30:00.000Z",
+            "close": 213.75999450683594
+          },
+          {
+            "date": "2025-07-25T13:30:00.000Z",
+            "close": 213.8800048828125
+          },
+          {
+            "date": "2025-07-28T13:30:00.000Z",
+            "close": 214.0500030517578
+          },
+          {
+            "date": "2025-07-29T13:30:00.000Z",
+            "close": 211.27000427246094
+          },
+          {
+            "date": "2025-07-30T13:30:00.000Z",
+            "close": 209.0500030517578
+          },
+          {
+            "date": "2025-07-31T13:30:00.000Z",
+            "close": 207.57000732421875
+          },
+          {
+            "date": "2025-08-01T13:30:00.000Z",
+            "close": 202.3800048828125
+          },
+          {
+            "date": "2025-08-04T13:30:00.000Z",
+            "close": 203.35000610351562
+          },
+          {
+            "date": "2025-08-05T13:30:00.000Z",
+            "close": 202.9199981689453
+          },
+          {
+            "date": "2025-08-06T13:30:00.000Z",
+            "close": 213.25
+          },
+          {
+            "date": "2025-08-07T13:30:00.000Z",
+            "close": 220.02999877929688
+          },
+          {
+            "date": "2025-08-08T13:30:00.000Z",
+            "close": 229.35000610351562
+          },
+          {
+            "date": "2025-08-11T13:30:00.000Z",
+            "close": 227.17999267578125
+          },
+          {
+            "date": "2025-08-12T13:30:00.000Z",
+            "close": 229.64999389648438
+          },
+          {
+            "date": "2025-08-13T13:30:00.000Z",
+            "close": 233.3300018310547
+          },
+          {
+            "date": "2025-08-14T13:30:00.000Z",
+            "close": 232.77999877929688
+          },
+          {
+            "date": "2025-08-15T13:30:00.000Z",
+            "close": 231.58999633789062
+          },
+          {
+            "date": "2025-08-18T13:30:00.000Z",
+            "close": 230.88999938964844
+          },
+          {
+            "date": "2025-08-19T13:30:00.000Z",
+            "close": 230.55999755859375
+          },
+          {
+            "date": "2025-08-20T13:30:00.000Z",
+            "close": 226.00999450683594
+          },
+          {
+            "date": "2025-08-21T13:30:00.000Z",
+            "close": 224.89999389648438
+          },
+          {
+            "date": "2025-08-22T13:30:00.000Z",
+            "close": 227.75999450683594
+          },
+          {
+            "date": "2025-08-25T13:30:00.000Z",
+            "close": 227.16000366210938
+          },
+          {
+            "date": "2025-08-26T13:30:00.000Z",
+            "close": 229.30999755859375
+          },
+          {
+            "date": "2025-08-27T13:30:00.000Z",
+            "close": 230.49000549316406
+          },
+          {
+            "date": "2025-08-28T13:30:00.000Z",
+            "close": 232.55999755859375
+          },
+          {
+            "date": "2025-08-29T13:30:00.000Z",
+            "close": 232.13999938964844
+          },
+          {
+            "date": "2025-09-02T13:30:00.000Z",
+            "close": 229.72000122070312
+          },
+          {
+            "date": "2025-09-03T13:30:00.000Z",
+            "close": 238.47000122070312
+          },
+          {
+            "date": "2025-09-04T13:30:00.000Z",
+            "close": 239.77999877929688
+          },
+          {
+            "date": "2025-09-05T13:30:00.000Z",
+            "close": 239.69000244140625
+          },
+          {
+            "date": "2025-09-08T13:30:00.000Z",
+            "close": 237.8800048828125
+          },
+          {
+            "date": "2025-09-09T13:30:00.000Z",
+            "close": 234.35000610351562
+          },
+          {
+            "date": "2025-09-10T13:30:00.000Z",
+            "close": 226.7899932861328
+          },
+          {
+            "date": "2025-09-11T13:30:00.000Z",
+            "close": 230.02999877929688
+          },
+          {
+            "date": "2025-09-12T13:30:00.000Z",
+            "close": 234.07000732421875
+          },
+          {
+            "date": "2025-09-15T13:30:00.000Z",
+            "close": 236.6999969482422
+          },
+          {
+            "date": "2025-09-16T13:30:00.000Z",
+            "close": 238.14999389648438
+          },
+          {
+            "date": "2025-09-17T13:30:00.000Z",
+            "close": 238.99000549316406
+          },
+          {
+            "date": "2025-09-18T13:30:00.000Z",
+            "close": 237.8800048828125
+          },
+          {
+            "date": "2025-09-19T13:30:00.000Z",
+            "close": 245.5
+          },
+          {
+            "date": "2025-09-22T13:30:00.000Z",
+            "close": 256.0799865722656
+          },
+          {
+            "date": "2025-09-23T13:30:00.000Z",
+            "close": 254.42999267578125
+          },
+          {
+            "date": "2025-09-24T13:30:00.000Z",
+            "close": 252.30999755859375
+          },
+          {
+            "date": "2025-09-25T13:30:00.000Z",
+            "close": 256.8699951171875
+          },
+          {
+            "date": "2025-09-26T13:30:00.000Z",
+            "close": 255.4600067138672
+          },
+          {
+            "date": "2025-09-29T13:30:00.000Z",
+            "close": 254.42999267578125
+          },
+          {
+            "date": "2025-09-30T13:30:00.000Z",
+            "close": 254.6300048828125
+          },
+          {
+            "date": "2025-10-01T13:30:00.000Z",
+            "close": 255.4499969482422
+          },
+          {
+            "date": "2025-10-02T13:30:00.000Z",
+            "close": 257.1300048828125
+          },
+          {
+            "date": "2025-10-03T13:30:00.000Z",
+            "close": 258.0199890136719
+          },
+          {
+            "date": "2025-10-06T13:30:00.000Z",
+            "close": 256.69000244140625
+          },
+          {
+            "date": "2025-10-07T13:30:00.000Z",
+            "close": 256.4800109863281
+          },
+          {
+            "date": "2025-10-08T13:30:00.000Z",
+            "close": 258.05999755859375
+          },
+          {
+            "date": "2025-10-09T13:30:00.000Z",
+            "close": 254.0399932861328
+          },
+          {
+            "date": "2025-10-10T13:30:00.000Z",
+            "close": 245.27000427246094
+          },
+          {
+            "date": "2025-10-13T13:30:00.000Z",
+            "close": 247.66000366210938
+          },
+          {
+            "date": "2025-10-14T13:30:00.000Z",
+            "close": 247.77000427246094
+          },
+          {
+            "date": "2025-10-15T13:30:00.000Z",
+            "close": 249.33999633789062
+          },
+          {
+            "date": "2025-10-16T13:30:00.000Z",
+            "close": 247.4499969482422
+          },
+          {
+            "date": "2025-10-17T13:30:00.000Z",
+            "close": 252.2899932861328
+          },
+          {
+            "date": "2025-10-20T13:30:00.000Z",
+            "close": 262.239990234375
+          },
+          {
+            "date": "2025-10-21T13:30:00.000Z",
+            "close": 262.7699890136719
+          },
+          {
+            "date": "2025-10-22T13:30:00.000Z",
+            "close": 258.45001220703125
+          },
+          {
+            "date": "2025-10-23T13:30:00.000Z",
+            "close": 259.5799865722656
+          },
+          {
+            "date": "2025-10-24T13:30:00.000Z",
+            "close": 262.82000732421875
+          },
+          {
+            "date": "2025-10-27T13:30:00.000Z",
+            "close": 268.80999755859375
+          },
+          {
+            "date": "2025-10-28T13:30:00.000Z",
+            "close": 269
+          },
+          {
+            "date": "2025-10-29T13:30:00.000Z",
+            "close": 269.70001220703125
+          },
+          {
+            "date": "2025-10-30T13:30:00.000Z",
+            "close": 271.3999938964844
+          },
+          {
+            "date": "2025-10-31T13:30:00.000Z",
+            "close": 270.3699951171875
+          },
+          {
+            "date": "2025-11-03T14:30:00.000Z",
+            "close": 269.04998779296875
+          },
+          {
+            "date": "2025-11-04T14:30:00.000Z",
+            "close": 270.0400085449219
+          },
+          {
+            "date": "2025-11-05T14:30:00.000Z",
+            "close": 270.1400146484375
+          },
+          {
+            "date": "2025-11-06T14:30:00.000Z",
+            "close": 269.7699890136719
+          },
+          {
+            "date": "2025-11-07T14:30:00.000Z",
+            "close": 268.4700012207031
+          },
+          {
+            "date": "2025-11-10T14:30:00.000Z",
+            "close": 269.42999267578125
+          },
+          {
+            "date": "2025-11-11T14:30:00.000Z",
+            "close": 275.25
+          },
+          {
+            "date": "2025-11-12T14:30:00.000Z",
+            "close": 273.4700012207031
+          },
+          {
+            "date": "2025-11-13T14:30:00.000Z",
+            "close": 272.95001220703125
+          },
+          {
+            "date": "2025-11-14T14:30:00.000Z",
+            "close": 272.4100036621094
+          },
+          {
+            "date": "2025-11-17T14:30:00.000Z",
+            "close": 267.4599914550781
+          },
+          {
+            "date": "2025-11-18T14:30:00.000Z",
+            "close": 267.44000244140625
+          },
+          {
+            "date": "2025-11-19T14:30:00.000Z",
+            "close": 268.55999755859375
+          },
+          {
+            "date": "2025-11-20T14:30:00.000Z",
+            "close": 266.25
+          },
+          {
+            "date": "2025-11-21T14:30:00.000Z",
+            "close": 271.489990234375
+          },
+          {
+            "date": "2025-11-24T14:30:00.000Z",
+            "close": 275.9200134277344
+          },
+          {
+            "date": "2025-11-25T14:30:00.000Z",
+            "close": 276.9700012207031
+          },
+          {
+            "date": "2025-11-26T14:30:00.000Z",
+            "close": 277.54998779296875
+          },
+          {
+            "date": "2025-11-28T14:30:00.000Z",
+            "close": 278.8500061035156
+          },
+          {
+            "date": "2025-12-01T14:30:00.000Z",
+            "close": 283.1000061035156
+          },
+          {
+            "date": "2025-12-02T14:30:00.000Z",
+            "close": 286.19000244140625
+          },
+          {
+            "date": "2025-12-03T14:30:00.000Z",
+            "close": 284.1499938964844
+          },
+          {
+            "date": "2025-12-04T14:30:00.000Z",
+            "close": 280.70001220703125
+          },
+          {
+            "date": "2025-12-05T14:30:00.000Z",
+            "close": 278.7799987792969
+          },
+          {
+            "date": "2025-12-08T14:30:00.000Z",
+            "close": 277.8900146484375
+          },
+          {
+            "date": "2025-12-09T14:30:00.000Z",
+            "close": 277.17999267578125
+          },
+          {
+            "date": "2025-12-10T14:30:00.000Z",
+            "close": 278.7799987792969
+          },
+          {
+            "date": "2025-12-11T14:30:00.000Z",
+            "close": 278.0299987792969
+          },
+          {
+            "date": "2025-12-12T14:30:00.000Z",
+            "close": 278.2799987792969
+          },
+          {
+            "date": "2025-12-15T14:30:00.000Z",
+            "close": 274.1099853515625
+          },
+          {
+            "date": "2025-12-16T14:30:00.000Z",
+            "close": 274.6099853515625
+          },
+          {
+            "date": "2025-12-17T14:30:00.000Z",
+            "close": 271.8399963378906
+          },
+          {
+            "date": "2025-12-18T14:30:00.000Z",
+            "close": 272.19000244140625
+          },
+          {
+            "date": "2025-12-19T14:30:00.000Z",
+            "close": 273.6700134277344
+          },
+          {
+            "date": "2025-12-22T14:30:00.000Z",
+            "close": 270.9700012207031
+          },
+          {
+            "date": "2025-12-23T14:30:00.000Z",
+            "close": 272.3599853515625
+          },
+          {
+            "date": "2025-12-24T14:30:00.000Z",
+            "close": 273.80999755859375
+          },
+          {
+            "date": "2025-12-26T14:30:00.000Z",
+            "close": 273.3999938964844
+          },
+          {
+            "date": "2025-12-29T14:30:00.000Z",
+            "close": 273.760009765625
+          },
+          {
+            "date": "2025-12-30T14:30:00.000Z",
+            "close": 273.0799865722656
+          },
+          {
+            "date": "2025-12-31T14:30:00.000Z",
+            "close": 271.8599853515625
+          },
+          {
+            "date": "2026-01-02T14:30:00.000Z",
+            "close": 271.010009765625
+          },
+          {
+            "date": "2026-01-05T14:30:00.000Z",
+            "close": 267.260009765625
+          },
+          {
+            "date": "2026-01-06T14:30:00.000Z",
+            "close": 262.3599853515625
+          },
+          {
+            "date": "2026-01-07T14:30:00.000Z",
+            "close": 260.3299865722656
+          },
+          {
+            "date": "2026-01-08T14:30:00.000Z",
+            "close": 259.0400085449219
+          },
+          {
+            "date": "2026-01-09T14:30:00.000Z",
+            "close": 259.3699951171875
+          },
+          {
+            "date": "2026-01-12T14:30:00.000Z",
+            "close": 260.25
+          },
+          {
+            "date": "2026-01-13T14:30:00.000Z",
+            "close": 261.04998779296875
+          },
+          {
+            "date": "2026-01-14T14:30:00.000Z",
+            "close": 259.9599914550781
+          },
+          {
+            "date": "2026-01-15T14:30:00.000Z",
+            "close": 258.2099914550781
+          },
+          {
+            "date": "2026-01-16T14:30:00.000Z",
+            "close": 255.52999877929688
+          },
+          {
+            "date": "2026-01-20T14:30:00.000Z",
+            "close": 246.6999969482422
+          },
+          {
+            "date": "2026-01-21T14:30:00.000Z",
+            "close": 247.64999389648438
+          },
+          {
+            "date": "2026-01-22T14:30:00.000Z",
+            "close": 248.35000610351562
+          },
+          {
+            "date": "2026-01-23T14:30:00.000Z",
+            "close": 248.0399932861328
+          },
+          {
+            "date": "2026-01-26T14:30:00.000Z",
+            "close": 255.41000366210938
+          },
+          {
+            "date": "2026-01-27T14:30:00.000Z",
+            "close": 258.2699890136719
+          },
+          {
+            "date": "2026-01-28T14:30:00.000Z",
+            "close": 256.44000244140625
+          },
+          {
+            "date": "2026-01-29T14:30:00.000Z",
+            "close": 258.2799987792969
+          },
+          {
+            "date": "2026-01-30T14:30:00.000Z",
+            "close": 259.4800109863281
+          },
+          {
+            "date": "2026-02-02T14:30:00.000Z",
+            "close": 270.010009765625
+          },
+          {
+            "date": "2026-02-03T14:30:00.000Z",
+            "close": 269.4800109863281
+          },
+          {
+            "date": "2026-02-04T14:30:00.000Z",
+            "close": 276.489990234375
+          },
+          {
+            "date": "2026-02-05T14:30:00.000Z",
+            "close": 275.9100036621094
+          },
+          {
+            "date": "2026-02-06T14:30:00.000Z",
+            "close": 278.1199951171875
+          },
+          {
+            "date": "2026-02-09T14:30:00.000Z",
+            "close": 274.6199951171875
+          },
+          {
+            "date": "2026-02-10T14:30:00.000Z",
+            "close": 273.67999267578125
+          },
+          {
+            "date": "2026-02-11T14:30:00.000Z",
+            "close": 275.5
+          },
+          {
+            "date": "2026-02-12T14:30:00.000Z",
+            "close": 261.7300109863281
+          },
+          {
+            "date": "2026-02-13T14:30:00.000Z",
+            "close": 255.77999877929688
+          },
+          {
+            "date": "2026-02-17T14:30:00.000Z",
+            "close": 263.8800048828125
+          },
+          {
+            "date": "2026-02-18T14:30:00.000Z",
+            "close": 264.3500061035156
+          },
+          {
+            "date": "2026-02-19T14:30:00.000Z",
+            "close": 260.5799865722656
+          },
+          {
+            "date": "2026-02-20T14:30:00.000Z",
+            "close": 264.5799865722656
+          },
+          {
+            "date": "2026-02-23T14:30:00.000Z",
+            "close": 266.17999267578125
+          },
+          {
+            "date": "2026-02-24T14:30:00.000Z",
+            "close": 272.1400146484375
+          },
+          {
+            "date": "2026-02-25T14:30:00.000Z",
+            "close": 274.2300109863281
+          },
+          {
+            "date": "2026-02-26T14:30:00.000Z",
+            "close": 272.95001220703125
+          },
+          {
+            "date": "2026-02-27T14:30:00.000Z",
+            "close": 264.17999267578125
+          },
+          {
+            "date": "2026-03-02T14:30:00.000Z",
+            "close": 264.7200012207031
+          },
+          {
+            "date": "2026-03-03T14:30:00.000Z",
+            "close": 263.75
+          },
+          {
+            "date": "2026-03-04T14:30:00.000Z",
+            "close": 262.5199890136719
+          },
+          {
+            "date": "2026-03-05T14:30:00.000Z",
+            "close": 260.2900085449219
+          },
+          {
+            "date": "2026-03-06T14:30:00.000Z",
+            "close": 257.4599914550781
+          },
+          {
+            "date": "2026-03-09T13:30:00.000Z",
+            "close": 259.8800048828125
+          },
+          {
+            "date": "2026-03-10T13:30:00.000Z",
+            "close": 260.8299865722656
+          },
+          {
+            "date": "2026-03-11T13:30:00.000Z",
+            "close": 260.80999755859375
+          },
+          {
+            "date": "2026-03-12T13:30:00.000Z",
+            "close": 255.75999450683594
+          },
+          {
+            "date": "2026-03-13T13:30:00.000Z",
+            "close": 250.1199951171875
+          },
+          {
+            "date": "2026-03-16T13:30:00.000Z",
+            "close": 252.82000732421875
+          },
+          {
+            "date": "2026-03-17T13:30:00.000Z",
+            "close": 254.22999572753906
+          },
+          {
+            "date": "2026-03-18T13:30:00.000Z",
+            "close": 249.94000244140625
+          },
+          {
+            "date": "2026-03-19T13:30:00.000Z",
+            "close": 248.9600067138672
+          },
+          {
+            "date": "2026-03-20T13:30:00.000Z",
+            "close": 247.99000549316406
+          },
+          {
+            "date": "2026-03-23T13:30:00.000Z",
+            "close": 251.49000549316406
+          },
+          {
+            "date": "2026-03-24T13:30:00.000Z",
+            "close": 251.63999938964844
+          },
+          {
+            "date": "2026-03-25T13:30:00.000Z",
+            "close": 252.6199951171875
+          },
+          {
+            "date": "2026-03-26T13:30:00.000Z",
+            "close": 252.88999938964844
+          },
+          {
+            "date": "2026-03-27T13:30:00.000Z",
+            "close": 248.8000030517578
+          },
+          {
+            "date": "2026-03-30T13:30:00.000Z",
+            "close": 246.6300048828125
+          },
+          {
+            "date": "2026-03-31T13:30:00.000Z",
+            "close": 253.7899932861328
+          },
+          {
+            "date": "2026-04-01T13:30:00.000Z",
+            "close": 255.6300048828125
+          },
+          {
+            "date": "2026-04-02T13:30:00.000Z",
+            "close": 255.9199981689453
+          },
+          {
+            "date": "2026-04-06T13:30:00.000Z",
+            "close": 258.8599853515625
+          },
+          {
+            "date": "2026-04-07T13:30:00.000Z",
+            "close": 253.5
+          },
+          {
+            "date": "2026-04-08T13:30:00.000Z",
+            "close": 258.8999938964844
+          },
+          {
+            "date": "2026-04-09T13:30:00.000Z",
+            "close": 260.489990234375
+          },
+          {
+            "date": "2026-04-10T13:30:00.000Z",
+            "close": 260.4800109863281
+          },
+          {
+            "date": "2026-04-13T13:30:00.000Z",
+            "close": 259.20001220703125
+          },
+          {
+            "date": "2026-04-14T13:30:00.000Z",
+            "close": 258.8299865722656
+          },
+          {
+            "date": "2026-04-15T13:30:00.000Z",
+            "close": 266.42999267578125
+          },
+          {
+            "date": "2026-04-16T13:30:00.000Z",
+            "close": 263.3999938964844
+          },
+          {
+            "date": "2026-04-17T13:30:00.000Z",
+            "close": 270.2300109863281
+          },
+          {
+            "date": "2026-04-20T13:30:00.000Z",
+            "close": 273.04998779296875
+          },
+          {
+            "date": "2026-04-21T13:30:00.000Z",
+            "close": 266.1700134277344
+          },
+          {
+            "date": "2026-04-22T13:30:00.000Z",
+            "close": 273.1700134277344
+          },
+          {
+            "date": "2026-04-23T13:30:00.000Z",
+            "close": 273.42999267578125
+          },
+          {
+            "date": "2026-04-24T13:30:00.000Z",
+            "close": 271.05999755859375
+          },
+          {
+            "date": "2026-04-27T13:30:00.000Z",
+            "close": 267.6099853515625
+          },
+          {
+            "date": "2026-04-28T13:30:00.000Z",
+            "close": 270.7099914550781
+          },
+          {
+            "date": "2026-04-29T13:30:00.000Z",
+            "close": 270.1700134277344
+          },
+          {
+            "date": "2026-04-30T13:30:00.000Z",
+            "close": 271.3500061035156
+          },
+          {
+            "date": "2026-05-01T13:30:00.000Z",
+            "close": 280.1400146484375
+          },
+          {
+            "date": "2026-05-04T13:30:00.000Z",
+            "close": 276.8299865722656
+          },
+          {
+            "date": "2026-05-05T13:30:00.000Z",
+            "close": 284.17999267578125
+          },
+          {
+            "date": "2026-05-06T13:30:00.000Z",
+            "close": 287.510009765625
+          },
+          {
+            "date": "2026-05-07T13:30:00.000Z",
+            "close": 287.44000244140625
+          },
+          {
+            "date": "2026-05-08T13:30:00.000Z",
+            "close": 293.32000732421875
+          },
+          {
+            "date": "2026-05-11T13:30:00.000Z",
+            "close": 292.67999267578125
+          },
+          {
+            "date": "2026-05-12T13:30:00.000Z",
+            "close": 294.79998779296875
+          },
+          {
+            "date": "2026-05-13T13:30:00.000Z",
+            "close": 298.8699951171875
+          },
+          {
+            "date": "2026-05-14T13:30:00.000Z",
+            "close": 298.2099914550781
+          },
+          {
+            "date": "2026-05-15T13:30:00.000Z",
+            "close": 300.2300109863281
+          },
+          {
+            "date": "2026-05-18T13:30:00.000Z",
+            "close": 297.8399963378906
+          },
+          {
+            "date": "2026-05-19T13:30:00.000Z",
+            "close": 298.9700012207031
+          },
+          {
+            "date": "2026-05-20T13:30:00.000Z",
+            "close": 302.25
+          },
+          {
+            "date": "2026-05-21T13:30:00.000Z",
+            "close": 304.989990234375
+          },
+          {
+            "date": "2026-05-22T13:30:00.000Z",
+            "close": 308.82000732421875
+          },
+          {
+            "date": "2026-05-26T13:30:00.000Z",
+            "close": 308.3299865722656
+          },
+          {
+            "date": "2026-05-27T13:30:00.000Z",
+            "close": 310.8500061035156
+          },
+          {
+            "date": "2026-05-28T13:30:00.000Z",
+            "close": 312.510009765625
+          },
+          {
+            "date": "2026-05-29T13:30:00.000Z",
+            "close": 312.05999755859375
+          },
+          {
+            "date": "2026-06-01T13:30:00.000Z",
+            "close": 306.30999755859375
+          },
+          {
+            "date": "2026-06-02T13:30:00.000Z",
+            "close": 315.20001220703125
+          },
+          {
+            "date": "2026-06-03T13:30:00.000Z",
+            "close": 310.260009765625
+          },
+          {
+            "date": "2026-06-04T13:30:00.000Z",
+            "close": 311.2300109863281
+          },
+          {
+            "date": "2026-06-05T13:30:00.000Z",
+            "close": 307.3399963378906
+          },
+          {
+            "date": "2026-06-08T13:30:00.000Z",
+            "close": 301.5400085449219
+          },
+          {
+            "date": "2026-06-09T13:30:00.000Z",
+            "close": 290.54998779296875
+          },
+          {
+            "date": "2026-06-10T13:30:00.000Z",
+            "close": 291.5799865722656
+          },
+          {
+            "date": "2026-06-11T13:30:00.000Z",
+            "close": 295.6300048828125
+          },
+          {
+            "date": "2026-06-12T13:30:00.000Z",
+            "close": 291.1300048828125
+          },
+          {
+            "date": "2026-06-15T13:30:00.000Z",
+            "close": 296.4200134277344
+          },
+          {
+            "date": "2026-06-16T13:30:00.000Z",
+            "close": 299.239990234375
+          },
+          {
+            "date": "2026-06-17T13:30:00.000Z",
+            "close": 295.95001220703125
+          },
+          {
+            "date": "2026-06-18T13:30:00.000Z",
+            "close": 298.010009765625
+          },
+          {
+            "date": "2026-06-22T13:30:00.000Z",
+            "close": 297.010009765625
+          },
+          {
+            "date": "2026-06-23T13:30:00.000Z",
+            "close": 294.29998779296875
+          },
+          {
+            "date": "2026-06-24T13:30:00.000Z",
+            "close": 293.0799865722656
+          },
+          {
+            "date": "2026-06-25T13:30:00.000Z",
+            "close": 275.1499938964844
+          },
+          {
+            "date": "2026-06-26T13:30:00.000Z",
+            "close": 283.7799987792969
+          },
+          {
+            "date": "2026-06-29T13:30:00.000Z",
+            "close": 281.739990234375
+          }
+        ]
+      },
+      "analysisData": {
+        "strengths": [
+          "Dominant market share in iPad (37%) and Apple Watch (23%) segments, showing continued growth in these areas.",
+          "Strong financial fundamentals, including a Q1 earnings beat ($2.01 EPS vs. $1.95 estimate) and 16.6% revenue growth.",
+          "High profitability with a gross margin of 47.86%, operating margin of 32.28%, and net margin of 27.15%.",
+          "Exceptional return on equity (141.47%) and return on assets (26.23%), indicating efficient use of capital.",
+          "Significant free cash flow of over $101 billion, providing financial flexibility."
+        ],
+        "risks": [
+          "Slipping iPhone market share, which fell to 18% in 2024 amid rising competition.",
+          "Intense competition from major players like Amazon and Alphabet across various product categories.",
+          "High P/E ratio (29.32) suggests a premium valuation, which could be sensitive to future growth expectations."
+        ],
+        "financialHealth": "Apple demonstrates robust financial health with strong earnings and revenue growth, high profitability margins (gross, operating, and net), and excellent returns on equity and assets. The company generates substantial free cash flow ($101.09 billion) and has a manageable total debt of $84.71 billion, indicating a very strong financial position.",
+        "marketSentiment": "Market sentiment towards Apple appears positive, with strong recent fundamentals underpinning a rally in its stock price. Despite some caution noted due to rising competition and a slight dip in iPhone market share, the overall sentiment is buoyed by consistent earnings beats and growth in key product segments."
+      },
+      "swotData": {
+        "strengths": [
+          "Strong earnings and revenue growth, including a Q1 earnings beat and 16.6% revenue growth.",
+          "Dominant market share in iPad (37% global share) and Apple Watch (23% global share) segments.",
+          "High profitability margins: Gross Margin of 47.86%, Operating Margin of 32.28%, and Net Margin of 27.15%.",
+          "Exceptional Return on Equity (ROE) of 141.47% and Return on Assets (ROA) of 26.23%.",
+          "Substantial free cash flow of over $101 billion.",
+          "Massive market capitalization exceeding $4.1 trillion."
+        ],
+        "weaknesses": [
+          "iPhone market share slipped to 18% in 2024, indicating rising competition in a key product category."
+        ],
+        "opportunities": [
+          "Further deepen dominance and gain global market share in existing strong product segments like iPad and Apple Watch.",
+          "Leverage strong financial position and free cash flow to invest in new technologies, product development, or market expansion.",
+          "Capitalize on strong brand loyalty and ecosystem to drive sales across its product and service offerings."
+        ],
+        "threats": [
+          "Intense and rising competition from major tech companies such as Amazon and Alphabet.",
+          "Potential for continued erosion of market share in the critical iPhone segment.",
+          "Market dynamics and consumer preferences shifting away from current product strengths."
+        ]
+      },
+      "riskData": {
+        "overallRiskScore": 6,
+        "riskFactors": [
+          {
+            "factor": "Declining iPhone Market Share",
+            "severity": "high",
+            "explanation": "Apple's iPhone market share slipped to 18% in 2024, indicating rising competition in a critical product category. A continued decline could significantly impact Apple's primary revenue stream and overall market position."
+          },
+          {
+            "factor": "Intense Competition",
+            "severity": "medium",
+            "explanation": "Apple faces intense and rising competition from major tech companies like Amazon and Alphabet across its product and service segments, potentially limiting growth opportunities and pressuring margins."
+          },
+          {
+            "factor": "Shifting Consumer Preferences",
+            "severity": "medium",
+            "explanation": "Market dynamics and consumer preferences are constantly evolving. A significant shift away from Apple's current product strengths could reduce demand and necessitate costly and time-consuming adaptation."
+          },
+          {
+            "factor": "High Valuation and Growth Expectations",
+            "severity": "low",
+            "explanation": "With a P/E ratio of 29.32, Apple's stock price reflects high investor expectations for continued growth. Any failure to meet these expectations could lead to stock price volatility."
+          }
+        ]
+      },
+      "finalDecision": {
+        "decision": "INVEST",
+        "confidence": 60,
+        "reasoning": "The overallRiskScore for Apple is assessed at 6, indicating a moderate-to-high risk profile. This score is justified primarily by the critical concern of Apple's slipping iPhone market share to 18% in 2024, which represents a significant threat to a core revenue stream, alongside intense competition from major tech players like Amazon and Alphabet across various product categories. Despite these challenges, Apple's robust financial health and strategic market positioning present compelling reasons for investment. A core strength, such as its 'Dominant market share in iPad (37%) and Apple Watch (23%) segments,' provides a strong counter-narrative to the 'Slipping iPhone market share' weakness, demonstrating diversified product leadership. Grounding the verdict in financial data, Apple exhibits exceptional profitability with a gross margin of 47.86%, operating margin of 32.28%, and net margin of 27.15%. Its return on equity (141.47%) and return on assets (26.23%) are outstanding, reflecting highly efficient capital utilization. Furthermore, the company's substantial free cash flow of over $101 billion provides immense financial flexibility for innovation and strategic investments. While the P/E ratio of 29.32 suggests a premium valuation, Apple's consistent earnings beats and strong revenue growth (16.6% in Q1) indicate that the company continues to deliver performance that can justify this premium. The company's ability to generate significant cash and maintain high margins, even amidst competitive pressures, underscores its resilience and potential for continued long-term growth. Therefore, despite the moderate-to-high risk, the overwhelming financial strength and diversified market leadership warrant an 'INVEST' decision, albeit with a cautious confidence level reflecting the noted risks.",
+        "keyFactors": [
+          "Strong financial fundamentals and profitability",
+          "Dominant market share in iPad and Apple Watch segments",
+          "Slipping iPhone market share and intense competition",
+          "High free cash flow and efficient capital utilization",
+          "Premium valuation (high P/E ratio)"
+        ]
+      }
+    },
+    "timestamp": 1782770538529
+  },
+  "nvidia": {
+    "value": {
+      "companyName": "Nvidia",
+      "ticker": "NVDA",
+      "researchData": {
+        "query": "Nvidia recent news, financials, competitors, and market position",
+        "follow_up_questions": null,
+        "answer": "As of 2026, NVDA holds a dominant 44.4% GPU market share, with key competitors including AMD and Qualcomm. NVDA's financials are strong, and it faces competition from Apple, Broadcom, and Amazon.",
+        "images": [],
+        "results": [
+          {
+            "url": "https://www.sahmcapital.com/news/content/market-analysis-nvidia-and-competitors-in-semiconductors-amp-semiconductor-equipment-industry-2025-11-07",
+            "title": "Market Analysis: NVIDIA And Competitors In Semiconductors &amp",
+            "content": "NVIDIA is in a relatively stronger financial position compared to its top 4 peers, as evidenced by its lower debt-to-equity ratio of 0.11. This",
+            "score": 0.79732054,
+            "raw_content": null
+          },
+          {
+            "url": "https://finance.yahoo.com/news/nvidias-85-gpu-market-share-210500376.html",
+            "title": "Nvidia's 85% GPU Market Share Faces Growing Competition",
+            "content": "But there are competitors emerging, namely Advanced Micro Devices (NASDAQ: AMD) and Qualcomm (NASDAQ: QCOM). AMD holds 7% market share and",
+            "score": 0.7208996,
+            "raw_content": null
+          },
+          {
+            "url": "https://csimarket.com/stocks/competitionSEG2.php?code=NVDA",
+            "title": "NVDA's Market share relative to its competitors, as of Q1 2026",
+            "content": "NVDA's Market share relative to its competitors, as of Q1 2026 ; Nvidia Corp, 253,491.00, 44.40% ; Broadcom Inc, 75,465.00, 13.22% ; Cisco Systems",
+            "score": 0.70799106,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/competitors-and-alternatives",
+            "title": "Top NVIDIA (NVDA) Competitors 2026 - MarketBeat",
+            "content": "Companies and stocks commonly compared with NVIDIA include Apple (AAPL), Advanced Micro Devices (AMD), Amazon.com (AMZN), Broadcom (AVGO), and Alphabet (GOOG).",
+            "score": 0.6829338,
+            "raw_content": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GLJJ52i2eyM",
+            "title": "Market Talk: Nvidia's competitors are in 'bubble territory' - YouTube",
+            "content": "... News #Reuters #Newsfeed #nvidia #spacex #airevolution Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the",
+            "score": 0.6350646,
+            "raw_content": null
+          }
+        ],
+        "response_time": 1.61,
+        "request_id": "7eb32354-d50f-4b6f-89b3-d347a0797641"
+      },
+      "financials": {
+        "metrics": {
+          "marketCap": 4722368446464,
+          "peRatio": 15.274478,
+          "eps": 12.76443,
+          "grossMargin": 0.74144995,
+          "operatingMargin": 0.65596,
+          "netMargin": 0.62966,
+          "roe": 1.14288,
+          "roa": 0.52727,
+          "totalDebt": 12814000128,
+          "freeCashFlow": 46335873024,
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "currentPrice": 194.97
+        },
+        "historicalPrices": [
+          {
+            "date": "2025-06-30T13:30:00.000Z",
+            "close": 157.99000549316406
+          },
+          {
+            "date": "2025-07-01T13:30:00.000Z",
+            "close": 153.3000030517578
+          },
+          {
+            "date": "2025-07-02T13:30:00.000Z",
+            "close": 157.25
+          },
+          {
+            "date": "2025-07-03T13:30:00.000Z",
+            "close": 159.33999633789062
+          },
+          {
+            "date": "2025-07-07T13:30:00.000Z",
+            "close": 158.24000549316406
+          },
+          {
+            "date": "2025-07-08T13:30:00.000Z",
+            "close": 160
+          },
+          {
+            "date": "2025-07-09T13:30:00.000Z",
+            "close": 162.8800048828125
+          },
+          {
+            "date": "2025-07-10T13:30:00.000Z",
+            "close": 164.10000610351562
+          },
+          {
+            "date": "2025-07-11T13:30:00.000Z",
+            "close": 164.9199981689453
+          },
+          {
+            "date": "2025-07-14T13:30:00.000Z",
+            "close": 164.07000732421875
+          },
+          {
+            "date": "2025-07-15T13:30:00.000Z",
+            "close": 170.6999969482422
+          },
+          {
+            "date": "2025-07-16T13:30:00.000Z",
+            "close": 171.3699951171875
+          },
+          {
+            "date": "2025-07-17T13:30:00.000Z",
+            "close": 173
+          },
+          {
+            "date": "2025-07-18T13:30:00.000Z",
+            "close": 172.41000366210938
+          },
+          {
+            "date": "2025-07-21T13:30:00.000Z",
+            "close": 171.3800048828125
+          },
+          {
+            "date": "2025-07-22T13:30:00.000Z",
+            "close": 167.02999877929688
+          },
+          {
+            "date": "2025-07-23T13:30:00.000Z",
+            "close": 170.77999877929688
+          },
+          {
+            "date": "2025-07-24T13:30:00.000Z",
+            "close": 173.74000549316406
+          },
+          {
+            "date": "2025-07-25T13:30:00.000Z",
+            "close": 173.5
+          },
+          {
+            "date": "2025-07-28T13:30:00.000Z",
+            "close": 176.75
+          },
+          {
+            "date": "2025-07-29T13:30:00.000Z",
+            "close": 175.50999450683594
+          },
+          {
+            "date": "2025-07-30T13:30:00.000Z",
+            "close": 179.27000427246094
+          },
+          {
+            "date": "2025-07-31T13:30:00.000Z",
+            "close": 177.8699951171875
+          },
+          {
+            "date": "2025-08-01T13:30:00.000Z",
+            "close": 173.72000122070312
+          },
+          {
+            "date": "2025-08-04T13:30:00.000Z",
+            "close": 180
+          },
+          {
+            "date": "2025-08-05T13:30:00.000Z",
+            "close": 178.25999450683594
+          },
+          {
+            "date": "2025-08-06T13:30:00.000Z",
+            "close": 179.4199981689453
+          },
+          {
+            "date": "2025-08-07T13:30:00.000Z",
+            "close": 180.77000427246094
+          },
+          {
+            "date": "2025-08-08T13:30:00.000Z",
+            "close": 182.6999969482422
+          },
+          {
+            "date": "2025-08-11T13:30:00.000Z",
+            "close": 182.05999755859375
+          },
+          {
+            "date": "2025-08-12T13:30:00.000Z",
+            "close": 183.16000366210938
+          },
+          {
+            "date": "2025-08-13T13:30:00.000Z",
+            "close": 181.58999633789062
+          },
+          {
+            "date": "2025-08-14T13:30:00.000Z",
+            "close": 182.02000427246094
+          },
+          {
+            "date": "2025-08-15T13:30:00.000Z",
+            "close": 180.4499969482422
+          },
+          {
+            "date": "2025-08-18T13:30:00.000Z",
+            "close": 182.00999450683594
+          },
+          {
+            "date": "2025-08-19T13:30:00.000Z",
+            "close": 175.63999938964844
+          },
+          {
+            "date": "2025-08-20T13:30:00.000Z",
+            "close": 175.39999389648438
+          },
+          {
+            "date": "2025-08-21T13:30:00.000Z",
+            "close": 174.97999572753906
+          },
+          {
+            "date": "2025-08-22T13:30:00.000Z",
+            "close": 177.99000549316406
+          },
+          {
+            "date": "2025-08-25T13:30:00.000Z",
+            "close": 179.80999755859375
+          },
+          {
+            "date": "2025-08-26T13:30:00.000Z",
+            "close": 181.77000427246094
+          },
+          {
+            "date": "2025-08-27T13:30:00.000Z",
+            "close": 181.60000610351562
+          },
+          {
+            "date": "2025-08-28T13:30:00.000Z",
+            "close": 180.1699981689453
+          },
+          {
+            "date": "2025-08-29T13:30:00.000Z",
+            "close": 174.17999267578125
+          },
+          {
+            "date": "2025-09-02T13:30:00.000Z",
+            "close": 170.77999877929688
+          },
+          {
+            "date": "2025-09-03T13:30:00.000Z",
+            "close": 170.6199951171875
+          },
+          {
+            "date": "2025-09-04T13:30:00.000Z",
+            "close": 171.66000366210938
+          },
+          {
+            "date": "2025-09-05T13:30:00.000Z",
+            "close": 167.02000427246094
+          },
+          {
+            "date": "2025-09-08T13:30:00.000Z",
+            "close": 168.30999755859375
+          },
+          {
+            "date": "2025-09-09T13:30:00.000Z",
+            "close": 170.75999450683594
+          },
+          {
+            "date": "2025-09-10T13:30:00.000Z",
+            "close": 177.3300018310547
+          },
+          {
+            "date": "2025-09-11T13:30:00.000Z",
+            "close": 177.1699981689453
+          },
+          {
+            "date": "2025-09-12T13:30:00.000Z",
+            "close": 177.82000732421875
+          },
+          {
+            "date": "2025-09-15T13:30:00.000Z",
+            "close": 177.75
+          },
+          {
+            "date": "2025-09-16T13:30:00.000Z",
+            "close": 174.8800048828125
+          },
+          {
+            "date": "2025-09-17T13:30:00.000Z",
+            "close": 170.2899932861328
+          },
+          {
+            "date": "2025-09-18T13:30:00.000Z",
+            "close": 176.24000549316406
+          },
+          {
+            "date": "2025-09-19T13:30:00.000Z",
+            "close": 176.6699981689453
+          },
+          {
+            "date": "2025-09-22T13:30:00.000Z",
+            "close": 183.61000061035156
+          },
+          {
+            "date": "2025-09-23T13:30:00.000Z",
+            "close": 178.42999267578125
+          },
+          {
+            "date": "2025-09-24T13:30:00.000Z",
+            "close": 176.97000122070312
+          },
+          {
+            "date": "2025-09-25T13:30:00.000Z",
+            "close": 177.69000244140625
+          },
+          {
+            "date": "2025-09-26T13:30:00.000Z",
+            "close": 178.19000244140625
+          },
+          {
+            "date": "2025-09-29T13:30:00.000Z",
+            "close": 181.85000610351562
+          },
+          {
+            "date": "2025-09-30T13:30:00.000Z",
+            "close": 186.5800018310547
+          },
+          {
+            "date": "2025-10-01T13:30:00.000Z",
+            "close": 187.24000549316406
+          },
+          {
+            "date": "2025-10-02T13:30:00.000Z",
+            "close": 188.88999938964844
+          },
+          {
+            "date": "2025-10-03T13:30:00.000Z",
+            "close": 187.6199951171875
+          },
+          {
+            "date": "2025-10-06T13:30:00.000Z",
+            "close": 185.5399932861328
+          },
+          {
+            "date": "2025-10-07T13:30:00.000Z",
+            "close": 185.0399932861328
+          },
+          {
+            "date": "2025-10-08T13:30:00.000Z",
+            "close": 189.11000061035156
+          },
+          {
+            "date": "2025-10-09T13:30:00.000Z",
+            "close": 192.57000732421875
+          },
+          {
+            "date": "2025-10-10T13:30:00.000Z",
+            "close": 183.16000366210938
+          },
+          {
+            "date": "2025-10-13T13:30:00.000Z",
+            "close": 188.32000732421875
+          },
+          {
+            "date": "2025-10-14T13:30:00.000Z",
+            "close": 180.02999877929688
+          },
+          {
+            "date": "2025-10-15T13:30:00.000Z",
+            "close": 179.8300018310547
+          },
+          {
+            "date": "2025-10-16T13:30:00.000Z",
+            "close": 181.80999755859375
+          },
+          {
+            "date": "2025-10-17T13:30:00.000Z",
+            "close": 183.22000122070312
+          },
+          {
+            "date": "2025-10-20T13:30:00.000Z",
+            "close": 182.63999938964844
+          },
+          {
+            "date": "2025-10-21T13:30:00.000Z",
+            "close": 181.16000366210938
+          },
+          {
+            "date": "2025-10-22T13:30:00.000Z",
+            "close": 180.27999877929688
+          },
+          {
+            "date": "2025-10-23T13:30:00.000Z",
+            "close": 182.16000366210938
+          },
+          {
+            "date": "2025-10-24T13:30:00.000Z",
+            "close": 186.25999450683594
+          },
+          {
+            "date": "2025-10-27T13:30:00.000Z",
+            "close": 191.49000549316406
+          },
+          {
+            "date": "2025-10-28T13:30:00.000Z",
+            "close": 201.02999877929688
+          },
+          {
+            "date": "2025-10-29T13:30:00.000Z",
+            "close": 207.0399932861328
+          },
+          {
+            "date": "2025-10-30T13:30:00.000Z",
+            "close": 202.88999938964844
+          },
+          {
+            "date": "2025-10-31T13:30:00.000Z",
+            "close": 202.49000549316406
+          },
+          {
+            "date": "2025-11-03T14:30:00.000Z",
+            "close": 206.8800048828125
+          },
+          {
+            "date": "2025-11-04T14:30:00.000Z",
+            "close": 198.69000244140625
+          },
+          {
+            "date": "2025-11-05T14:30:00.000Z",
+            "close": 195.2100067138672
+          },
+          {
+            "date": "2025-11-06T14:30:00.000Z",
+            "close": 188.0800018310547
+          },
+          {
+            "date": "2025-11-07T14:30:00.000Z",
+            "close": 188.14999389648438
+          },
+          {
+            "date": "2025-11-10T14:30:00.000Z",
+            "close": 199.0500030517578
+          },
+          {
+            "date": "2025-11-11T14:30:00.000Z",
+            "close": 193.16000366210938
+          },
+          {
+            "date": "2025-11-12T14:30:00.000Z",
+            "close": 193.8000030517578
+          },
+          {
+            "date": "2025-11-13T14:30:00.000Z",
+            "close": 186.86000061035156
+          },
+          {
+            "date": "2025-11-14T14:30:00.000Z",
+            "close": 190.1699981689453
+          },
+          {
+            "date": "2025-11-17T14:30:00.000Z",
+            "close": 186.60000610351562
+          },
+          {
+            "date": "2025-11-18T14:30:00.000Z",
+            "close": 181.36000061035156
+          },
+          {
+            "date": "2025-11-19T14:30:00.000Z",
+            "close": 186.52000427246094
+          },
+          {
+            "date": "2025-11-20T14:30:00.000Z",
+            "close": 180.63999938964844
+          },
+          {
+            "date": "2025-11-21T14:30:00.000Z",
+            "close": 178.8800048828125
+          },
+          {
+            "date": "2025-11-24T14:30:00.000Z",
+            "close": 182.5500030517578
+          },
+          {
+            "date": "2025-11-25T14:30:00.000Z",
+            "close": 177.82000732421875
+          },
+          {
+            "date": "2025-11-26T14:30:00.000Z",
+            "close": 180.25999450683594
+          },
+          {
+            "date": "2025-11-28T14:30:00.000Z",
+            "close": 177
+          },
+          {
+            "date": "2025-12-01T14:30:00.000Z",
+            "close": 179.9199981689453
+          },
+          {
+            "date": "2025-12-02T14:30:00.000Z",
+            "close": 181.4600067138672
+          },
+          {
+            "date": "2025-12-03T14:30:00.000Z",
+            "close": 179.58999633789062
+          },
+          {
+            "date": "2025-12-04T14:30:00.000Z",
+            "close": 183.3800048828125
+          },
+          {
+            "date": "2025-12-05T14:30:00.000Z",
+            "close": 182.41000366210938
+          },
+          {
+            "date": "2025-12-08T14:30:00.000Z",
+            "close": 185.5500030517578
+          },
+          {
+            "date": "2025-12-09T14:30:00.000Z",
+            "close": 184.97000122070312
+          },
+          {
+            "date": "2025-12-10T14:30:00.000Z",
+            "close": 183.77999877929688
+          },
+          {
+            "date": "2025-12-11T14:30:00.000Z",
+            "close": 180.92999267578125
+          },
+          {
+            "date": "2025-12-12T14:30:00.000Z",
+            "close": 175.02000427246094
+          },
+          {
+            "date": "2025-12-15T14:30:00.000Z",
+            "close": 176.2899932861328
+          },
+          {
+            "date": "2025-12-16T14:30:00.000Z",
+            "close": 177.72000122070312
+          },
+          {
+            "date": "2025-12-17T14:30:00.000Z",
+            "close": 170.94000244140625
+          },
+          {
+            "date": "2025-12-18T14:30:00.000Z",
+            "close": 174.13999938964844
+          },
+          {
+            "date": "2025-12-19T14:30:00.000Z",
+            "close": 180.99000549316406
+          },
+          {
+            "date": "2025-12-22T14:30:00.000Z",
+            "close": 183.69000244140625
+          },
+          {
+            "date": "2025-12-23T14:30:00.000Z",
+            "close": 189.2100067138672
+          },
+          {
+            "date": "2025-12-24T14:30:00.000Z",
+            "close": 188.61000061035156
+          },
+          {
+            "date": "2025-12-26T14:30:00.000Z",
+            "close": 190.52999877929688
+          },
+          {
+            "date": "2025-12-29T14:30:00.000Z",
+            "close": 188.22000122070312
+          },
+          {
+            "date": "2025-12-30T14:30:00.000Z",
+            "close": 187.5399932861328
+          },
+          {
+            "date": "2025-12-31T14:30:00.000Z",
+            "close": 186.5
+          },
+          {
+            "date": "2026-01-02T14:30:00.000Z",
+            "close": 188.85000610351562
+          },
+          {
+            "date": "2026-01-05T14:30:00.000Z",
+            "close": 188.1199951171875
+          },
+          {
+            "date": "2026-01-06T14:30:00.000Z",
+            "close": 187.24000549316406
+          },
+          {
+            "date": "2026-01-07T14:30:00.000Z",
+            "close": 189.11000061035156
+          },
+          {
+            "date": "2026-01-08T14:30:00.000Z",
+            "close": 185.0399932861328
+          },
+          {
+            "date": "2026-01-09T14:30:00.000Z",
+            "close": 184.86000061035156
+          },
+          {
+            "date": "2026-01-12T14:30:00.000Z",
+            "close": 184.94000244140625
+          },
+          {
+            "date": "2026-01-13T14:30:00.000Z",
+            "close": 185.80999755859375
+          },
+          {
+            "date": "2026-01-14T14:30:00.000Z",
+            "close": 183.13999938964844
+          },
+          {
+            "date": "2026-01-15T14:30:00.000Z",
+            "close": 187.0500030517578
+          },
+          {
+            "date": "2026-01-16T14:30:00.000Z",
+            "close": 186.22999572753906
+          },
+          {
+            "date": "2026-01-20T14:30:00.000Z",
+            "close": 178.07000732421875
+          },
+          {
+            "date": "2026-01-21T14:30:00.000Z",
+            "close": 183.32000732421875
+          },
+          {
+            "date": "2026-01-22T14:30:00.000Z",
+            "close": 184.83999633789062
+          },
+          {
+            "date": "2026-01-23T14:30:00.000Z",
+            "close": 187.6699981689453
+          },
+          {
+            "date": "2026-01-26T14:30:00.000Z",
+            "close": 186.47000122070312
+          },
+          {
+            "date": "2026-01-27T14:30:00.000Z",
+            "close": 188.52000427246094
+          },
+          {
+            "date": "2026-01-28T14:30:00.000Z",
+            "close": 191.52000427246094
+          },
+          {
+            "date": "2026-01-29T14:30:00.000Z",
+            "close": 192.50999450683594
+          },
+          {
+            "date": "2026-01-30T14:30:00.000Z",
+            "close": 191.1300048828125
+          },
+          {
+            "date": "2026-02-02T14:30:00.000Z",
+            "close": 185.61000061035156
+          },
+          {
+            "date": "2026-02-03T14:30:00.000Z",
+            "close": 180.33999633789062
+          },
+          {
+            "date": "2026-02-04T14:30:00.000Z",
+            "close": 174.19000244140625
+          },
+          {
+            "date": "2026-02-05T14:30:00.000Z",
+            "close": 171.8800048828125
+          },
+          {
+            "date": "2026-02-06T14:30:00.000Z",
+            "close": 185.41000366210938
+          },
+          {
+            "date": "2026-02-09T14:30:00.000Z",
+            "close": 190.0399932861328
+          },
+          {
+            "date": "2026-02-10T14:30:00.000Z",
+            "close": 188.5399932861328
+          },
+          {
+            "date": "2026-02-11T14:30:00.000Z",
+            "close": 190.0500030517578
+          },
+          {
+            "date": "2026-02-12T14:30:00.000Z",
+            "close": 186.94000244140625
+          },
+          {
+            "date": "2026-02-13T14:30:00.000Z",
+            "close": 182.80999755859375
+          },
+          {
+            "date": "2026-02-17T14:30:00.000Z",
+            "close": 184.97000122070312
+          },
+          {
+            "date": "2026-02-18T14:30:00.000Z",
+            "close": 187.97999572753906
+          },
+          {
+            "date": "2026-02-19T14:30:00.000Z",
+            "close": 187.89999389648438
+          },
+          {
+            "date": "2026-02-20T14:30:00.000Z",
+            "close": 189.82000732421875
+          },
+          {
+            "date": "2026-02-23T14:30:00.000Z",
+            "close": 191.5500030517578
+          },
+          {
+            "date": "2026-02-24T14:30:00.000Z",
+            "close": 192.85000610351562
+          },
+          {
+            "date": "2026-02-25T14:30:00.000Z",
+            "close": 195.55999755859375
+          },
+          {
+            "date": "2026-02-26T14:30:00.000Z",
+            "close": 184.88999938964844
+          },
+          {
+            "date": "2026-02-27T14:30:00.000Z",
+            "close": 177.19000244140625
+          },
+          {
+            "date": "2026-03-02T14:30:00.000Z",
+            "close": 182.47999572753906
+          },
+          {
+            "date": "2026-03-03T14:30:00.000Z",
+            "close": 180.0500030517578
+          },
+          {
+            "date": "2026-03-04T14:30:00.000Z",
+            "close": 183.0399932861328
+          },
+          {
+            "date": "2026-03-05T14:30:00.000Z",
+            "close": 183.33999633789062
+          },
+          {
+            "date": "2026-03-06T14:30:00.000Z",
+            "close": 177.82000732421875
+          },
+          {
+            "date": "2026-03-09T13:30:00.000Z",
+            "close": 182.64999389648438
+          },
+          {
+            "date": "2026-03-10T13:30:00.000Z",
+            "close": 184.77000427246094
+          },
+          {
+            "date": "2026-03-11T13:30:00.000Z",
+            "close": 186.02999877929688
+          },
+          {
+            "date": "2026-03-12T13:30:00.000Z",
+            "close": 183.13999938964844
+          },
+          {
+            "date": "2026-03-13T13:30:00.000Z",
+            "close": 180.25
+          },
+          {
+            "date": "2026-03-16T13:30:00.000Z",
+            "close": 183.22000122070312
+          },
+          {
+            "date": "2026-03-17T13:30:00.000Z",
+            "close": 181.92999267578125
+          },
+          {
+            "date": "2026-03-18T13:30:00.000Z",
+            "close": 180.39999389648438
+          },
+          {
+            "date": "2026-03-19T13:30:00.000Z",
+            "close": 178.55999755859375
+          },
+          {
+            "date": "2026-03-20T13:30:00.000Z",
+            "close": 172.6999969482422
+          },
+          {
+            "date": "2026-03-23T13:30:00.000Z",
+            "close": 175.63999938964844
+          },
+          {
+            "date": "2026-03-24T13:30:00.000Z",
+            "close": 175.1999969482422
+          },
+          {
+            "date": "2026-03-25T13:30:00.000Z",
+            "close": 178.67999267578125
+          },
+          {
+            "date": "2026-03-26T13:30:00.000Z",
+            "close": 171.24000549316406
+          },
+          {
+            "date": "2026-03-27T13:30:00.000Z",
+            "close": 167.52000427246094
+          },
+          {
+            "date": "2026-03-30T13:30:00.000Z",
+            "close": 165.1699981689453
+          },
+          {
+            "date": "2026-03-31T13:30:00.000Z",
+            "close": 174.39999389648438
+          },
+          {
+            "date": "2026-04-01T13:30:00.000Z",
+            "close": 175.75
+          },
+          {
+            "date": "2026-04-02T13:30:00.000Z",
+            "close": 177.38999938964844
+          },
+          {
+            "date": "2026-04-06T13:30:00.000Z",
+            "close": 177.63999938964844
+          },
+          {
+            "date": "2026-04-07T13:30:00.000Z",
+            "close": 178.10000610351562
+          },
+          {
+            "date": "2026-04-08T13:30:00.000Z",
+            "close": 182.0800018310547
+          },
+          {
+            "date": "2026-04-09T13:30:00.000Z",
+            "close": 183.91000366210938
+          },
+          {
+            "date": "2026-04-10T13:30:00.000Z",
+            "close": 188.6300048828125
+          },
+          {
+            "date": "2026-04-13T13:30:00.000Z",
+            "close": 189.30999755859375
+          },
+          {
+            "date": "2026-04-14T13:30:00.000Z",
+            "close": 196.50999450683594
+          },
+          {
+            "date": "2026-04-15T13:30:00.000Z",
+            "close": 198.8699951171875
+          },
+          {
+            "date": "2026-04-16T13:30:00.000Z",
+            "close": 198.35000610351562
+          },
+          {
+            "date": "2026-04-17T13:30:00.000Z",
+            "close": 201.67999267578125
+          },
+          {
+            "date": "2026-04-20T13:30:00.000Z",
+            "close": 202.05999755859375
+          },
+          {
+            "date": "2026-04-21T13:30:00.000Z",
+            "close": 199.8800048828125
+          },
+          {
+            "date": "2026-04-22T13:30:00.000Z",
+            "close": 202.5
+          },
+          {
+            "date": "2026-04-23T13:30:00.000Z",
+            "close": 199.63999938964844
+          },
+          {
+            "date": "2026-04-24T13:30:00.000Z",
+            "close": 208.27000427246094
+          },
+          {
+            "date": "2026-04-27T13:30:00.000Z",
+            "close": 216.61000061035156
+          },
+          {
+            "date": "2026-04-28T13:30:00.000Z",
+            "close": 213.1699981689453
+          },
+          {
+            "date": "2026-04-29T13:30:00.000Z",
+            "close": 209.25
+          },
+          {
+            "date": "2026-04-30T13:30:00.000Z",
+            "close": 199.57000732421875
+          },
+          {
+            "date": "2026-05-01T13:30:00.000Z",
+            "close": 198.4499969482422
+          },
+          {
+            "date": "2026-05-04T13:30:00.000Z",
+            "close": 198.47999572753906
+          },
+          {
+            "date": "2026-05-05T13:30:00.000Z",
+            "close": 196.5
+          },
+          {
+            "date": "2026-05-06T13:30:00.000Z",
+            "close": 207.8300018310547
+          },
+          {
+            "date": "2026-05-07T13:30:00.000Z",
+            "close": 211.5
+          },
+          {
+            "date": "2026-05-08T13:30:00.000Z",
+            "close": 215.1999969482422
+          },
+          {
+            "date": "2026-05-11T13:30:00.000Z",
+            "close": 219.44000244140625
+          },
+          {
+            "date": "2026-05-12T13:30:00.000Z",
+            "close": 220.77999877929688
+          },
+          {
+            "date": "2026-05-13T13:30:00.000Z",
+            "close": 225.8300018310547
+          },
+          {
+            "date": "2026-05-14T13:30:00.000Z",
+            "close": 235.74000549316406
+          },
+          {
+            "date": "2026-05-15T13:30:00.000Z",
+            "close": 225.32000732421875
+          },
+          {
+            "date": "2026-05-18T13:30:00.000Z",
+            "close": 222.32000732421875
+          },
+          {
+            "date": "2026-05-19T13:30:00.000Z",
+            "close": 220.61000061035156
+          },
+          {
+            "date": "2026-05-20T13:30:00.000Z",
+            "close": 223.47000122070312
+          },
+          {
+            "date": "2026-05-21T13:30:00.000Z",
+            "close": 219.50999450683594
+          },
+          {
+            "date": "2026-05-22T13:30:00.000Z",
+            "close": 215.3300018310547
+          },
+          {
+            "date": "2026-05-26T13:30:00.000Z",
+            "close": 214.86000061035156
+          },
+          {
+            "date": "2026-05-27T13:30:00.000Z",
+            "close": 212.60000610351562
+          },
+          {
+            "date": "2026-05-28T13:30:00.000Z",
+            "close": 214.25
+          },
+          {
+            "date": "2026-05-29T13:30:00.000Z",
+            "close": 211.13999938964844
+          },
+          {
+            "date": "2026-06-01T13:30:00.000Z",
+            "close": 224.36000061035156
+          },
+          {
+            "date": "2026-06-02T13:30:00.000Z",
+            "close": 222.82000732421875
+          },
+          {
+            "date": "2026-06-03T13:30:00.000Z",
+            "close": 214.75
+          },
+          {
+            "date": "2026-06-04T13:30:00.000Z",
+            "close": 218.66000366210938
+          },
+          {
+            "date": "2026-06-05T13:30:00.000Z",
+            "close": 205.10000610351562
+          },
+          {
+            "date": "2026-06-08T13:30:00.000Z",
+            "close": 208.63999938964844
+          },
+          {
+            "date": "2026-06-09T13:30:00.000Z",
+            "close": 208.19000244140625
+          },
+          {
+            "date": "2026-06-10T13:30:00.000Z",
+            "close": 200.4199981689453
+          },
+          {
+            "date": "2026-06-11T13:30:00.000Z",
+            "close": 204.8699951171875
+          },
+          {
+            "date": "2026-06-12T13:30:00.000Z",
+            "close": 205.19000244140625
+          },
+          {
+            "date": "2026-06-15T13:30:00.000Z",
+            "close": 212.4499969482422
+          },
+          {
+            "date": "2026-06-16T13:30:00.000Z",
+            "close": 207.41000366210938
+          },
+          {
+            "date": "2026-06-17T13:30:00.000Z",
+            "close": 204.64999389648438
+          },
+          {
+            "date": "2026-06-18T13:30:00.000Z",
+            "close": 210.69000244140625
+          },
+          {
+            "date": "2026-06-22T13:30:00.000Z",
+            "close": 208.64999389648438
+          },
+          {
+            "date": "2026-06-23T13:30:00.000Z",
+            "close": 200.0399932861328
+          },
+          {
+            "date": "2026-06-24T13:30:00.000Z",
+            "close": 199
+          },
+          {
+            "date": "2026-06-25T13:30:00.000Z",
+            "close": 195.74000549316406
+          },
+          {
+            "date": "2026-06-26T13:30:00.000Z",
+            "close": 192.52999877929688
+          },
+          {
+            "date": "2026-06-29T13:30:00.000Z",
+            "close": 194.97000122070312
+          }
+        ]
+      },
+      "analysisData": {
+        "strengths": [
+          "Dominant GPU market share of 44.4% as of Q1 2026.",
+          "Exceptional profitability with a Gross Margin of 74.14%, Operating Margin of 65.59%, and Net Margin of 62.96%.",
+          "Strong returns on equity (114.28%) and assets (52.72%).",
+          "Significant free cash flow of $46.34 billion.",
+          "Relatively stronger financial position compared to peers, evidenced by a low debt-to-equity ratio of 0.11."
+        ],
+        "risks": [
+          "Growing competition in the GPU market from Advanced Micro Devices (AMD) and Qualcomm.",
+          "Competition from other major tech companies including Apple, Broadcom, Amazon, and Alphabet."
+        ],
+        "financialHealth": "Nvidia demonstrates robust financial health, characterized by high profitability margins (Gross Margin 74.14%, Operating Margin 65.59%, Net Margin 62.96%) and strong returns on equity (114.28%) and assets (52.72%). The company maintains a strong balance sheet with a low debt-to-equity ratio of 0.11 and substantial free cash flow of $46.34 billion. Its P/E ratio of 15.27, coupled with an EPS of $12.76, indicates a solid financial standing.",
+        "marketSentiment": "Market sentiment towards Nvidia appears generally positive, with its financials described as strong. There is an observation that some competitors may be in 'bubble territory,' potentially positioning Nvidia as a more stable investment. The historical stock prices show an overall upward trend, with the current price of $194.97 being higher than most points in the provided historical data, suggesting favorable investor confidence."
+      },
+      "swotData": {
+        "strengths": [
+          "Dominant GPU market share of 44.4% as of Q1 2026",
+          "Strong financial position with a low debt-to-equity ratio of 0.11",
+          "High gross margin (0.7414)",
+          "High operating margin (0.6560)",
+          "High net margin (0.6297)",
+          "Excellent Return on Equity (ROE) of 1.1429",
+          "Strong Return on Assets (ROA) of 0.5273",
+          "Significant free cash flow of $46.34 billion"
+        ],
+        "weaknesses": [
+          "No specific internal weaknesses identified in the provided data"
+        ],
+        "opportunities": [
+          "Potential for continued growth within the semiconductor industry",
+          "Leveraging strong market position to expand into new segments or applications",
+          "Innovation in GPU technology to maintain competitive edge and capture emerging markets"
+        ],
+        "threats": [
+          "Growing competition from Advanced Micro Devices (AMD) and Qualcomm in the GPU market",
+          "Competition from other major tech companies including Apple, Broadcom, and Amazon",
+          "Risk of market share erosion due to aggressive competitor strategies"
+        ]
+      },
+      "riskData": {
+        "overallRiskScore": 6,
+        "riskFactors": [
+          {
+            "factor": "Intensifying Competition",
+            "severity": "high",
+            "explanation": "Despite a dominant GPU market share (44.4% as of Q1 2026), Nvidia faces growing competition from major players like Advanced Micro Devices (AMD), Qualcomm, Apple, Broadcom, and Amazon. This intense competition could lead to market share erosion and pressure on Nvidia's exceptionally high profit margins."
+          },
+          {
+            "factor": "High Market Valuation and Volatility",
+            "severity": "medium",
+            "explanation": "Nvidia holds a massive market capitalization, and while its financial metrics are strong (e.g., high margins, ROE, FCF), such a high valuation can be susceptible to market corrections, shifts in investor sentiment, or any perceived slowdown in growth, leading to significant stock price volatility."
+          },
+          {
+            "factor": "Dependence on AI/Data Center Market Growth",
+            "severity": "medium",
+            "explanation": "Nvidia's recent explosive growth is heavily tied to its leadership in AI and data center GPUs. A significant slowdown in this specific market segment, increased competition, or a fundamental shift in technological paradigms could disproportionately impact its revenue and profitability."
+          },
+          {
+            "factor": "Global Supply Chain Vulnerabilities",
+            "severity": "medium",
+            "explanation": "As a leading semiconductor company, Nvidia relies on complex global supply chains for manufacturing and distribution. Geopolitical tensions, trade restrictions, natural disasters, or disruptions in key manufacturing hubs could severely impact production, leading to delays, increased costs, and potential revenue losses."
+          },
+          {
+            "factor": "Rapid Technological Obsolescence",
+            "severity": "medium",
+            "explanation": "The semiconductor and AI industries are characterized by extremely rapid technological advancements. Failure to continuously innovate and maintain a leading edge in performance, efficiency, and new applications could result in a loss of competitive advantage and market share to agile competitors."
+          }
+        ]
+      },
+      "finalDecision": {
+        "decision": "INVEST",
+        "confidence": 70,
+        "reasoning": "The decision to INVEST in Nvidia is primarily driven by its exceptional financial health and dominant market position, despite an 'overallRiskScore' of 6. This risk score is justified by the high severity of 'Intensifying Competition' from major players like AMD, Qualcomm, Apple, Broadcom, and Amazon, coupled with medium severity risks such as 'High Market Valuation and Volatility', 'Dependence on AI/Data Center Market Growth', 'Global Supply Chain Vulnerabilities', and 'Rapid Technological Obsolescence'. While these threats are significant, Nvidia's core strengths provide a robust counter-argument.\n\nSpecifically, Nvidia's 'Dominant GPU market share of 44.4% as of Q1 2026' is a critical strength that underpins its financial performance. This market leadership translates directly into 'Exceptional profitability with a Gross Margin of 74.14%, Operating Margin of 65.59%, and Net Margin of 62.96%'. These margins are outstanding and demonstrate strong pricing power and operational efficiency. Furthermore, the company exhibits strong returns on equity (114.28%) and assets (52.72%), alongside a substantial free cash flow of $46.34 billion and a low debt-to-equity ratio of 0.11, indicating a very healthy balance sheet. The P/E ratio of 15.27, when viewed against its impressive EPS of $12.76 and these high profitability margins, suggests a reasonable valuation for a company with such strong fundamentals and growth prospects in the semiconductor industry. The market sentiment also appears generally positive, with Nvidia potentially offering more stability compared to some competitors perceived to be in 'bubble territory'. While competition is a clear threat, Nvidia's current financial fortress and innovation capacity position it well to navigate these challenges and capitalize on continued growth opportunities.",
+        "keyFactors": [
+          "Dominant GPU market share",
+          "Exceptional profitability margins (Gross, Operating, Net)",
+          "Strong returns on equity and assets",
+          "Robust free cash flow and low debt",
+          "Reasonable P/E ratio relative to performance",
+          "Intensifying competition in the semiconductor market",
+          "Dependence on AI/Data Center market growth"
+        ]
+      }
+    },
+    "timestamp": 1782770601110
+  }
+}
