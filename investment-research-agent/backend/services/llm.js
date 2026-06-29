@@ -20,7 +20,7 @@ export function getStructuredLLM(schema, name) {
   if (groqApiKey) {
     const fallbackModel = new ChatGroq({
       apiKey: groqApiKey,
-      model: "llama3-8b-8192", // Fast and reliable fallback
+      model: "llama-3.1-8b-instant", // Fast and reliable fallback
       temperature: 0.2,
     });
 
