@@ -8,24 +8,24 @@ export function getStructuredLLM(schema, name) {
   }
 
   const primaryModel = new ChatGoogleGenerativeAI({
-    model: "gemini-1.5-flash",
+    model: "gemini-2.0-flash",
     apiKey: geminiApiKey,
     temperature: 0.2,
   });
-  
+
   const primaryStructured = primaryModel.withStructuredOutput(schema, { name });
 
   const groqApiKey = process.env.GROQ_API_KEY;
-  
+
   if (groqApiKey) {
     const fallbackModel = new ChatGroq({
       apiKey: groqApiKey,
       model: "llama3-8b-8192", // Fast and reliable fallback
       temperature: 0.2,
     });
-    
+
     const fallbackStructured = fallbackModel.withStructuredOutput(schema, { name });
-    
+
     return primaryStructured.withFallbacks({
       fallbacks: [fallbackStructured]
     });
