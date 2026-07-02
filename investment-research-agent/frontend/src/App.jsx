@@ -298,10 +298,10 @@ function App() {
                 <XAxis dataKey="date" stroke="#94a3b8" tick={{fill: '#94a3b8'}} />
                 <YAxis domain={['auto', 'auto']} stroke="#94a3b8" tick={{fill: '#94a3b8'}} tickFormatter={(val) => `$${val}`} />
                 <Tooltip 
-                  contentStyle={{ backgroundColor: 'rgba(15, 23, 42, 0.9)', borderColor: '#334155', color: '#f8fafc' }}
-                  itemStyle={{ color: '#38bdf8' }}
+                  contentStyle={{ backgroundColor: 'rgba(15, 23, 42, 0.9)', borderColor: 'rgba(56, 189, 248, 0.4)', color: '#f8fafc', borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}
+                  itemStyle={{ color: '#38bdf8', fontWeight: 600 }}
                 />
-                <Line type="monotone" dataKey="close" stroke="#38bdf8" strokeWidth={2} dot={false} activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="close" stroke="#38bdf8" strokeWidth={3} dot={false} activeDot={{ r: 8, fill: '#0ea5e9', stroke: '#fff', strokeWidth: 2 }} style={{ filter: 'drop-shadow(0px 0px 8px rgba(56,189,248,0.5))' }} />
               </LineChart>
             </ResponsiveContainer>
           ) : (
