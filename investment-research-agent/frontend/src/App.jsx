@@ -22,17 +22,46 @@ function App() {
 
   // UI state
   const [activeTab, setActiveTab] = useState('overview');
+  const [recentSearches, setRecentSearches] = useState([]);
   
   const eventSourceRef = useRef(null);
 
-  // Clean up EventSource on unmount
+  // Initialize localStorage and EventSource cleanup
   useEffect(() => {
+    const saved = localStorage.getItem('recentReports');
+    if (saved) {
+      try {
+        setRecentSearches(JSON.parse(saved));
+      } catch (e) {
+        console.error("Failed to parse recent reports", e);
+      }
+    }
+
     return () => {
       if (eventSourceRef.current) {
         eventSourceRef.current.close();
       }
     };
   }, []);
+
+  const saveRecentSearch = (companyStr, finalTicker = null) => {
+    setRecentSearches(prev => {
+      const now = new Date().toISOString();
+      const existingIdx = prev.findIndex(item => item.company.toLowerCase() === companyStr.toLowerCase());
+      
+      let updated = [...prev];
+      if (existingIdx >= 0) {
+        updated[existingIdx].timestamp = now;
+        if (finalTicker) updated[existingIdx].ticker = finalTicker;
+      } else {
+        updated.unshift({ company: companyStr, ticker: finalTicker, timestamp: now });
+      }
+      
+      updated = updated.slice(0, 5); // Keep last 5
+      localStorage.setItem('recentReports', JSON.stringify(updated));
+      return updated;
+    });
+  };
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -96,7 +125,10 @@ function App() {
         }
 
         // Store data payloads
-        if (data.ticker) setTicker(data.ticker);
+        if (data.ticker) {
+          setTicker(data.ticker);
+          saveRecentSearch(company, data.ticker);
+        }
         if (data.financials) setFinancials(data.financials);
         if (data.analysisData) setAnalysisData(data.analysisData);
         if (data.swotData) setSwotData(data.swotData);
@@ -147,30 +179,54 @@ function App() {
     return `${(val * 100).toFixed(2)}%`;
   };
 
+  const getRelativeTime = (isoString) => {
+    const rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+    const elapsed = new Date(isoString).getTime() - Date.now();
+    const elapsedMinutes = Math.round(elapsed / (1000 * 60));
+    
+    if (Math.abs(elapsedMinutes) < 1) return 'Just now';
+    if (Math.abs(elapsedMinutes) < 60) return rtf.format(elapsedMinutes, 'minute');
+    const elapsedHours = Math.round(elapsedMinutes / 60);
+    if (Math.abs(elapsedHours) < 24) return rtf.format(elapsedHours, 'hour');
+    return rtf.format(Math.round(elapsedHours / 24), 'day');
+  };
+
+  const POPULAR_CHIPS = [
+    { name: 'Apple', ticker: 'AAPL' },
+    { name: 'Tesla', ticker: 'TSLA' },
+    { name: 'Nvidia', ticker: 'NVDA' },
+    { name: 'Microsoft', ticker: 'MSFT' },
+    { name: 'Amazon', ticker: 'AMZN' }
+  ];
+
+  const handleChipClick = (name) => {
+    setCompany(name);
+  };
+
   // Sections
   const renderOverview = () => (
     <div className="section-content fade-in">
       <h2>Overview</h2>
-      <div className="card-grid">
-        <div className="metric-card">
+      <div className="metric-grid">
+        <div className="metric-row">
           <div className="metric-label">Company</div>
           <div className="metric-value">{company}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Ticker</div>
-          <div className="metric-value">{ticker || 'N/A'}</div>
+          <div className="metric-value mono">{ticker || 'N/A'}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Sector</div>
           <div className="metric-value">{financials?.metrics?.sector || 'N/A'}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Industry</div>
           <div className="metric-value">{financials?.metrics?.industry || 'N/A'}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Current Price</div>
-          <div className="metric-value">{financials?.metrics?.currentPrice ? `$${financials.metrics.currentPrice.toFixed(2)}` : 'N/A'}</div>
+          <div className="metric-value mono">{financials?.metrics?.currentPrice ? `$${financials.metrics.currentPrice.toFixed(2)}` : 'N/A'}</div>
         </div>
       </div>
     </div>
@@ -179,46 +235,46 @@ function App() {
   const renderFinancialHealth = () => (
     <div className="section-content fade-in">
       <h2>Financial Health</h2>
-      <div className="card-grid">
-        <div className="metric-card">
+      <div className="metric-grid">
+        <div className="metric-row">
           <div className="metric-label">Market Cap</div>
-          <div className="metric-value">{formatDollar(financials?.metrics?.marketCap)}</div>
+          <div className="metric-value mono">{formatDollar(financials?.metrics?.marketCap)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">P/E Ratio</div>
-          <div className="metric-value">{financials?.metrics?.peRatio?.toFixed(2) || 'N/A'}</div>
+          <div className="metric-value mono">{financials?.metrics?.peRatio?.toFixed(2) || 'N/A'}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">EPS</div>
-          <div className="metric-value">{financials?.metrics?.eps?.toFixed(2) || 'N/A'}</div>
+          <div className="metric-value mono">{financials?.metrics?.eps?.toFixed(2) || 'N/A'}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Total Debt</div>
-          <div className="metric-value">{formatDollar(financials?.metrics?.totalDebt)}</div>
+          <div className="metric-value mono">{formatDollar(financials?.metrics?.totalDebt)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Free Cash Flow</div>
-          <div className="metric-value">{formatDollar(financials?.metrics?.freeCashFlow)}</div>
+          <div className="metric-value mono">{formatDollar(financials?.metrics?.freeCashFlow)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Gross Margin</div>
-          <div className="metric-value">{formatPercent(financials?.metrics?.grossMargin)}</div>
+          <div className="metric-value mono">{formatPercent(financials?.metrics?.grossMargin)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Operating Margin</div>
-          <div className="metric-value">{formatPercent(financials?.metrics?.operatingMargin)}</div>
+          <div className="metric-value mono">{formatPercent(financials?.metrics?.operatingMargin)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">Net Margin</div>
-          <div className="metric-value">{formatPercent(financials?.metrics?.netMargin)}</div>
+          <div className="metric-value mono">{formatPercent(financials?.metrics?.netMargin)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">ROE</div>
-          <div className="metric-value">{formatPercent(financials?.metrics?.roe)}</div>
+          <div className="metric-value mono">{formatPercent(financials?.metrics?.roe)}</div>
         </div>
-        <div className="metric-card">
+        <div className="metric-row">
           <div className="metric-label">ROA</div>
-          <div className="metric-value">{formatPercent(financials?.metrics?.roa)}</div>
+          <div className="metric-value mono">{formatPercent(financials?.metrics?.roa)}</div>
         </div>
       </div>
     </div>
@@ -365,33 +421,92 @@ function App() {
     { id: 'decision', label: 'Final Decision' }
   ];
 
+  // Empty State / Landing Page
+  const isLanding = !loading && !finalDecision && completedNodes.length === 0 && !error;
+
   return (
     <>
-      <div className="header">
-        <h1>AI Investment Research Agent</h1>
-        <p>Enter a company name for an instant, AI-driven investment analysis.</p>
-      </div>
+      {!isLanding && (
+        <div className="header">
+          <h1>Terminal</h1>
+          <p>Equities Research Agent</p>
+        </div>
+      )}
 
-      <form className="search-box" onSubmit={handleSearch}>
-        <input 
-          type="text" 
-          placeholder="e.g. Tesla, Apple, OpenAI" 
-          value={company}
-          onChange={(e) => setCompany(e.target.value)}
-          disabled={loading}
-        />
-        <button type="submit" disabled={loading || !company.trim()}>
-          {loading ? 'Analyzing...' : 'Research'}
-        </button>
-      </form>
+      {isLanding ? (
+        <div className="landing-container">
+          <div className="terminal-header">
+            <h1>AI Investment Terminal</h1>
+            <p>Synthesizing real-time financial data with AI reasoning.</p>
+          </div>
+
+          <div className="search-container-wrapper">
+            <div className="live-pulse-indicator"></div>
+            <form className="terminal-search" onSubmit={handleSearch}>
+              <input 
+                type="text" 
+                className="mono"
+                placeholder="AAPL, TSLA, or company name..." 
+                value={company}
+                onChange={(e) => setCompany(e.target.value)}
+                disabled={loading}
+                autoFocus
+              />
+              <button type="submit" disabled={loading || !company.trim()}>
+                Initialize
+              </button>
+            </form>
+          </div>
+
+          <div className="popular-chips-container">
+            {POPULAR_CHIPS.map(chip => (
+              <div key={chip.ticker} className="popular-chip" onClick={() => handleChipClick(chip.name)}>
+                <span className="chip-name">{chip.name}</span>
+                <span className="chip-ticker mono">{chip.ticker}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="recent-reports-section">
+            <div className="recent-reports-header">Recent Reports</div>
+            {recentSearches.length > 0 ? (
+              <div className="recent-report-list">
+                {recentSearches.map((search, idx) => (
+                  <div key={idx} className="recent-report-row" onClick={() => { setCompany(search.company); }}>
+                    <span className="recent-report-name">{search.company}</span>
+                    <span className="recent-report-ticker mono">{search.ticker || '---'}</span>
+                    <span className="recent-report-time">{getRelativeTime(search.timestamp)}</span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="empty-reports">
+                System standing by. No recent reports generated.
+              </div>
+            )}
+          </div>
+        </div>
+      ) : (
+        <form className="search-box" onSubmit={handleSearch}>
+          <input 
+            type="text" 
+            placeholder="e.g. Tesla, Apple, OpenAI" 
+            value={company}
+            onChange={(e) => setCompany(e.target.value)}
+            disabled={loading}
+          />
+          <button type="submit" disabled={loading || !company.trim()}>
+            {loading ? 'Analyzing...' : 'Research'}
+          </button>
+        </form>
+      )}
 
       {finalDecision && (
         <div className="status-badge-container fade-in">
-          {isCached ? (
-            <span className="status-badge cached">⚡ Instant result (cached)</span>
-          ) : (
-            <span className="status-badge live">🔴 Live analysis</span>
-          )}
+          <span className="status-badge">
+            <span className={`live-indicator ${isCached ? 'cached' : 'live'}`}></span>
+            {isCached ? 'CACHED RESULT' : 'LIVE DATA'}
+          </span>
         </div>
       )}
 
@@ -411,30 +526,24 @@ function App() {
       )}
 
       {(loading || completedNodes.length > 0) && !finalDecision && !error && (
-        <div className="card">
-          <ul className="progress-list">
-            {allNodes.map(node => {
-              const isDone = completedNodes.includes(node);
-              const isActive = currentNode === node;
-              
-              if (!isDone && !isActive && !loading) return null;
-
-              return (
-                <li key={node} className={`progress-item ${isActive ? 'active' : ''} ${isDone ? 'done' : ''}`}>
-                  {isDone ? (
-                    <span className="check-icon">✓</span>
-                  ) : isActive ? (
-                    <div className="spinner"></div>
-                  ) : (
-                    <span style={{ color: '#475569' }}>○</span>
-                  )}
-                  <span style={{ opacity: isDone ? 1 : isActive ? 0.9 : 0.5 }}>
-                    {getStatusText(node)}
-                  </span>
-                </li>
-              );
-            })}
-          </ul>
+        <div className="skeleton-container fade-in">
+          <div className="status-badge-container">
+            <span className="status-badge">
+              <span className="live-indicator live"></span> 
+              PROCESSING NODE: {currentNode ? currentNode.toUpperCase() : 'INIT'}
+            </span>
+          </div>
+          <div className="skeleton-grid">
+            <div className="skeleton-sidebar">
+              {[...Array(7)].map((_, i) => <div key={i} className="skeleton-nav"></div>)}
+            </div>
+            <div className="skeleton-main">
+              <div className="skeleton-header"></div>
+              <div className="skeleton-metric-grid">
+                {[...Array(6)].map((_, i) => <div key={i} className="skeleton-metric-row"></div>)}
+              </div>
+            </div>
+          </div>
         </div>
       )}
 
